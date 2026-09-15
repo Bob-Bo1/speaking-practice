@@ -1,0 +1,11 @@
+{
+  "name": "speaking-practice-monorepo",
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "build": "pnpm --filter speaking-practice build",
+    "dev": "pnpm --filter speaking-practice dev",
+    "transcription:check": "cd apps/sensevoice && uv run python -c \"import funasr, torch, torchaudio; print('FunASR:', funasr.__version__); print('PyTorch:', torch.__version__); print('TorchAudio:', torchaudio.__version__); print('MPS:', torch.backends.mps.is_available())\"",
+    "release:prepare": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/prepare-release.ps1"
+  }
+}

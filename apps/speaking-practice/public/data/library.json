@@ -1,0 +1,2822 @@
+{
+  "version": 1,
+  "clipCount": 25,
+  "model": "FunASR 1.4.3 + SenseVoiceSmall + FSMN-VAD + CAM++ + CT-Punc",
+  "authors": [
+    {
+      "id": "media-storm",
+      "name": "影视飓风",
+      "bilibiliMid": "946974",
+      "avatar": "/avatars/media-storm.jpg",
+      "clips": [
+        {
+          "id": "media-storm-01",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "但事实上这整个图啊，就这整个图包括指纹，这个手机没有...",
+          "sourceId": "116634249336876",
+          "sourceTitle": "你被AI内容骗过吗？",
+          "sourceUrl": "https://www.bilibili.com/video/av116634249336876",
+          "start": 136.2,
+          "end": 194.3,
+          "duration": 58.1,
+          "text": "但事实上这整个图啊，就这整个图包括指纹，这个手机没有一个是真的，这就变得非常奇怪了。哪怕你再有经验，你很难一眼分辨出来，这样的视频这样的图片是不是AI。.我都不确定，那我该怎么表达我的情绪呢。那这个时候我们唯一能做的就是不管看到什么，好像都得先问一句，这是AI吗？我们都开始不由自主的不再信任互联网上的内容，是那种非常底层的不信任，就是一个像素都不能信的那种。但恰恰好的，信任又是互联网上最大的杠杆。一边是作者，另一边是观众和情绪，大家能够平衡好的，大家都会很开心。你只有相信这是一个人认真拍的东西，你才会感动。你相信这是一个人花。这几年研究出来的东西，你才会欣赏它。但如果现在我们脑子的第一情绪变成了疑问句，那有相当长的一段时间，我们是脱离作者的情绪的。我们在甄别在怀疑这是一种被动的解构。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9986,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12906,
+          "video": "/media/media-storm/media-storm-01/video.mp4",
+          "audio": "/media/media-storm/media-storm-01/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-01/transcript.srt",
+          "poster": "/media/media-storm/media-storm-01/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 7.5,
+              "text": "但事实上这整个图啊，就这整个图包括指纹，这个手机没有一个是真的，这就变得非常奇怪了。",
+              "speaker": 0
+            },
+            {
+              "start": 7.5,
+              "end": 13.62,
+              "text": "哪怕你再有经验，你很难一眼分辨出来，这样的视频这样的图片是不是AI。",
+              "speaker": 0
+            },
+            {
+              "start": 13.66,
+              "end": 16.87,
+              "text": ".我都不确定，那我该怎么表达我的情绪呢。",
+              "speaker": 0
+            },
+            {
+              "start": 16.87,
+              "end": 22.33,
+              "text": "那这个时候我们唯一能做的就是不管看到什么，好像都得先问一句，这是AI吗？",
+              "speaker": 0
+            },
+            {
+              "start": 22.33,
+              "end": 30.01,
+              "text": "我们都开始不由自主的不再信任互联网上的内容，是那种非常底层的不信任，就是一个像素都不能信的那种。",
+              "speaker": 0
+            },
+            {
+              "start": 30.01,
+              "end": 33.67,
+              "text": "但恰恰好的，信任又是互联网上最大的杠杆。",
+              "speaker": 0
+            },
+            {
+              "start": 33.67,
+              "end": 38.77,
+              "text": "一边是作者，另一边是观众和情绪，大家能够平衡好的，大家都会很开心。",
+              "speaker": 0
+            },
+            {
+              "start": 38.77,
+              "end": 42.49,
+              "text": "你只有相信这是一个人认真拍的东西，你才会感动。",
+              "speaker": 0
+            },
+            {
+              "start": 42.49,
+              "end": 43.87,
+              "text": "你相信这是一个人花。",
+              "speaker": 0
+            },
+            {
+              "start": 43.91,
+              "end": 46.88,
+              "text": "这几年研究出来的东西，你才会欣赏它。",
+              "speaker": 0
+            },
+            {
+              "start": 46.88,
+              "end": 53.72,
+              "text": "但如果现在我们脑子的第一情绪变成了疑问句，那有相当长的一段时间，我们是脱离作者的情绪的。",
+              "speaker": 0
+            },
+            {
+              "start": 53.72,
+              "end": 58.1,
+              "text": "我们在甄别在怀疑这是一种被动的解构。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "media-storm-02",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "学会了，我们变强了，我们被训练了。其实呢被AI骗一下...",
+          "sourceId": "116706424985820",
+          "sourceTitle": "AI还是真的？连特效师也看不出来？",
+          "sourceUrl": "https://www.bilibili.com/video/av116706424985820",
+          "start": 364.53,
+          "end": 422.58,
+          "duration": 58.05,
+          "text": "学会了，我们变强了，我们被训练了。其实呢被AI骗一下也挺正常。但是如果我们能够把AI用到这些正确的地方，它绝对会是我们的好帮手。就像老板U2系列把AI用在预判油烟上，它自己感知自动调节模式，你全程不动手，我自己用下来也挺意外的油烟机也能这么聪明。但其实你刚刚看到我说的这一切也谁？接下来我们难度现在会再往上深一点。各位我们会尝试用特效和AI来让你鉴别。有的是手工做的，有的是AI做的，你能分出来吗？我的眼睛更是迟了，我就是做特效了哦，这种就不是写实的了，画风就已经是完全虚构的画风了，这种确实不太好分辨。们没事，他他妈什么都吃赖这东西。失烟其实很容易看烟也不好看，因为他这个画风定死了的话，我们只能从这个人设图和一些逻辑上的问题去看这个是不是AI了。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.999,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12944,
+          "video": "/media/media-storm/media-storm-02/video.mp4",
+          "audio": "/media/media-storm/media-storm-02/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-02/transcript.srt",
+          "poster": "/media/media-storm/media-storm-02/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 2.52,
+              "text": "学会了，我们变强了，我们被训练了。",
+              "speaker": 0
+            },
+            {
+              "start": 2.52,
+              "end": 4.56,
+              "text": "其实呢被AI骗一下也挺正常。",
+              "speaker": 0
+            },
+            {
+              "start": 4.56,
+              "end": 8.82,
+              "text": "但是如果我们能够把AI用到这些正确的地方，它绝对会是我们的好帮手。",
+              "speaker": 0
+            },
+            {
+              "start": 8.82,
+              "end": 18.12,
+              "text": "就像老板U2系列把AI用在预判油烟上，它自己感知自动调节模式，你全程不动手，我自己用下来也挺意外的油烟机也能这么聪明。",
+              "speaker": 0
+            },
+            {
+              "start": 18.16,
+              "end": 21.67,
+              "text": "但其实你刚刚看到我说的这一切也谁？",
+              "speaker": 0
+            },
+            {
+              "start": 21.67,
+              "end": 24.01,
+              "text": "接下来我们难度现在会再往上深一点。",
+              "speaker": 0
+            },
+            {
+              "start": 24.01,
+              "end": 28.51,
+              "text": "各位我们会尝试用特效和AI来让你鉴别。",
+              "speaker": 0
+            },
+            {
+              "start": 28.51,
+              "end": 31.75,
+              "text": "有的是手工做的，有的是AI做的，你能分出来吗？",
+              "speaker": 0
+            },
+            {
+              "start": 31.75,
+              "end": 39.58,
+              "text": "我的眼睛更是迟了，我就是做特效了哦，这种就不是写实的了，",
+              "speaker": 0
+            },
+            {
+              "start": 39.58,
+              "end": 43.66,
+              "text": "画风就已经是完全虚构的画风了，这种确实不太好分辨。",
+              "speaker": 0
+            },
+            {
+              "start": 43.66,
+              "end": 46.6,
+              "text": "们没事，他他妈什么都吃赖这东西。",
+              "speaker": 0
+            },
+            {
+              "start": 46.62,
+              "end": 57.75,
+              "text": "失烟其实很容易看烟也不好看，因为他这个画风定死了的话，我们只能从这个人设图和一些逻辑上的问题去看这个是不是AI",
+              "speaker": 0
+            },
+            {
+              "start": 57.75,
+              "end": 58.05,
+              "text": "了。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "media-storm-03",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "借助渲染器，你可以在里面转圈俯冲，甚至和这个世界交互...",
+          "sourceId": "116757746424408",
+          "sourceTitle": "在AI里抛硬币，概率是50%吗？",
+          "sourceUrl": "https://www.bilibili.com/video/av116757746424408",
+          "start": 223.76,
+          "end": 281.76,
+          "duration": 58.0,
+          "text": "借助渲染器，你可以在里面转圈俯冲，甚至和这个世界交互。那就像游戏一样以前需要花几个星期才能建模出来的场景，现在你只要画一次算力就能得到。那它虽然现在看起来确实有点粗糙，但其实已经初步具备了模拟部分三维物理世界的能力，由此大大降低了模型在规律上产生幻觉的问题。所以到底什么是世界模型，它和我们常用的大模型又有什么本质的不同呢？那简单来说，它就是一个可以预测，当我采取一个行动后，世界会发生什么变化的一种模型。不知道你有没有理解这个意思，他会观察世界。他知道这是一枚硬币，那么它的大致重量是什么样，它的正反面是否均等，守在什么位置开始抛落在什么材质上。那么第二步，他会开始预测这是世界模型最有趣的一部分，它会预言接下来无数种物理的走向。那到了最后一步，他会在基于想象出来的未来判断行动带来的结果再去执行。那听起来特别的高深，对不对？",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.999,
+          "maxInternalGap": 0.05,
+          "semanticEnd": true,
+          "score": 1.12974,
+          "video": "/media/media-storm/media-storm-03/video.mp4",
+          "audio": "/media/media-storm/media-storm-03/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-03/transcript.srt",
+          "poster": "/media/media-storm/media-storm-03/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 4.38,
+              "text": "借助渲染器，你可以在里面转圈俯冲，甚至和这个世界交互。",
+              "speaker": 0
+            },
+            {
+              "start": 4.38,
+              "end": 10.27,
+              "text": "那就像游戏一样以前需要花几个星期才能建模出来的场景，现在你只要画一次算力就能得到。",
+              "speaker": 0
+            },
+            {
+              "start": 10.27,
+              "end": 20.65,
+              "text": "那它虽然现在看起来确实有点粗糙，但其实已经初步具备了模拟部分三维物理世界的能力，由此大大降低了模型在规律上产生幻觉的问题。",
+              "speaker": 0
+            },
+            {
+              "start": 20.65,
+              "end": 25.96,
+              "text": "所以到底什么是世界模型，它和我们常用的大模型又有什么本质的不同呢？",
+              "speaker": 0
+            },
+            {
+              "start": 25.96,
+              "end": 32.5,
+              "text": "那简单来说，它就是一个可以预测，当我采取一个行动后，世界会发生什么变化的一种模型。",
+              "speaker": 0
+            },
+            {
+              "start": 32.5,
+              "end": 35.44,
+              "text": "不知道你有没有理解这个意思，他会观察世界。",
+              "speaker": 0
+            },
+            {
+              "start": 35.49,
+              "end": 43.32,
+              "text": "他知道这是一枚硬币，那么它的大致重量是什么样，它的正反面是否均等，守在什么位置开始抛落在什么材质上。",
+              "speaker": 0
+            },
+            {
+              "start": 43.32,
+              "end": 49.98,
+              "text": "那么第二步，他会开始预测这是世界模型最有趣的一部分，它会预言接下来无数种物理的走向。",
+              "speaker": 0
+            },
+            {
+              "start": 49.99,
+              "end": 56.02,
+              "text": "那到了最后一步，他会在基于想象出来的未来判断行动带来的结果再去执行。",
+              "speaker": 0
+            },
+            {
+              "start": 56.02,
+              "end": 58.0,
+              "text": "那听起来特别的高深，对不对？",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "media-storm-04",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "他从你这边拿到需求和预算，然后把单子派给这些摄影师，...",
+          "sourceId": "117036701196064",
+          "sourceTitle": "太卷了！改变视频行业的AI又迭代了什么？",
+          "sourceUrl": "https://www.bilibili.com/video/av117036701196064",
+          "start": 512.71,
+          "end": 570.74,
+          "duration": 58.03,
+          "text": "他从你这边拿到需求和预算，然后把单子派给这些摄影师，也就是这些模型来干活。那理论上这个中间商需要老老实实的把项目交给你指定的摄但是现在有些小的平台却偷偷把你指定的摄影换成了更小更便宜的模型，这样可以对他们赚到巨量的利润。我们在这些平台上买积分，上传参考，输入提示词，最后按下生成按钮，等待AI返回给我们一个精美的画面的时候。其实我们是不知道平台到底用了哪个模型的。以前我们拿着相机的时候，我们可以100%确定，只要光子打在我们的传感器上，就能留下真实的影像。但是今天当AI变得这么强大的时候。我们其实不知道到底是谁在何时给我们生成一个怎么样的图像，这点是不是很微妙？所以这就是我们2026年中这个时间点对于现在AI视频生成模型的一些看法了。如果你喜欢这个视频，也欢迎转发给你的朋友们，那么我们下次再见。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9983,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12939,
+          "video": "/media/media-storm/media-storm-04/video.mp4",
+          "audio": "/media/media-storm/media-storm-04/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-04/transcript.srt",
+          "poster": "/media/media-storm/media-storm-04/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 6.18,
+              "text": "他从你这边拿到需求和预算，然后把单子派给这些摄影师，也就是这些模型来干活。",
+              "speaker": 0
+            },
+            {
+              "start": 6.18,
+              "end": 15.42,
+              "text": "那理论上这个中间商需要老老实实的把项目交给你指定的摄但是现在有些小的平台却偷偷把你指定的摄影换成了更小更便宜的模型，",
+              "speaker": 0
+            },
+            {
+              "start": 15.42,
+              "end": 17.88,
+              "text": "这样可以对他们赚到巨量的利润。",
+              "speaker": 0
+            },
+            {
+              "start": 17.88,
+              "end": 25.56,
+              "text": "我们在这些平台上买积分，上传参考，输入提示词，最后按下生成按钮，等待AI返回给我们一个精美的画面的时候。",
+              "speaker": 0
+            },
+            {
+              "start": 25.59,
+              "end": 29.34,
+              "text": "其实我们是不知道平台到底用了哪个模型的。",
+              "speaker": 0
+            },
+            {
+              "start": 29.34,
+              "end": 36.96,
+              "text": "以前我们拿着相机的时候，我们可以100%确定，只要光子打在我们的传感器上，就能留下真实的影像。",
+              "speaker": 0
+            },
+            {
+              "start": 36.96,
+              "end": 40.5,
+              "text": "但是今天当AI变得这么强大的时候。",
+              "speaker": 0
+            },
+            {
+              "start": 40.53,
+              "end": 47.94,
+              "text": "我们其实不知道到底是谁在何时给我们生成一个怎么样的图像，这点是不是很微妙？",
+              "speaker": 0
+            },
+            {
+              "start": 47.94,
+              "end": 52.8,
+              "text": "所以这就是我们2026年中这个时间点对于现在AI视频生成模型的一些看法了。",
+              "speaker": 0
+            },
+            {
+              "start": 52.84,
+              "end": 58.03,
+              "text": "如果你喜欢这个视频，也欢迎转发给你的朋友们，那么我们下次再见。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "media-storm-05",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "其实都系用呢啲形式ld咁大只咧去播放嘅佢每边咧大约四...",
+          "sourceId": "117052740213400",
+          "sourceTitle": "家里的旧光盘，为什么播不出来了？",
+          "sourceUrl": "https://www.bilibili.com/video/av117052740213400",
+          "start": 241.32,
+          "end": 298.82,
+          "duration": 57.5,
+          "text": "其实都系用呢啲形式ld咁大只咧去播放嘅佢每边咧大约四十五分钟咗右，咁两边加埋咧，都有个半钟头嘅，当时嘅价钱嚟讲咧，大约系八百蚊咗右，咁当时嘅人嘅人工咧，系三千至五千蚊左右两日嘅人工先买到嘅会员。诶如果电影会比较平啲电影咧，就大约三百蚊一只左右，当时嚟讲主要都系租碟嘅，就好少话会买翻去咯，咁，呢啲，呢只卡拉okk咧，譬如我哋去唱歌嗰时其实以前我哋咪点歌嘅，咁人哋收到，我哋呢只歌之后咧，就会用呢碟摆落去个播放机嗰度减拣咗出嚟俾我哋唱歌咁样咯。当时嚟讲咧，其实咧诶啲人有时买咗只碟翻嚟咧可能就咁放喺度啊诶可能摆喺个窗边嗰度咧，有太阳晒住啊会影响咗个诶个碟嘅质素咯。",
+          "dominantSpeaker": "2",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9991,
+          "maxInternalGap": 0.05,
+          "semanticEnd": true,
+          "score": 1.12678,
+          "video": "/media/media-storm/media-storm-05/video.mp4",
+          "audio": "/media/media-storm/media-storm-05/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-05/transcript.srt",
+          "poster": "/media/media-storm/media-storm-05/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 7.55,
+              "text": "其实都系用呢啲形式ld咁大只咧去播放嘅佢每边咧大约四十五分钟咗右，咁两边加埋咧，",
+              "speaker": 2
+            },
+            {
+              "start": 7.55,
+              "end": 18.47,
+              "text": "都有个半钟头嘅，当时嘅价钱嚟讲咧，大约系八百蚊咗右，咁当时嘅人嘅人工咧，系三千至五千蚊左右两日嘅人工先买到嘅会员。",
+              "speaker": 2
+            },
+            {
+              "start": 18.47,
+              "end": 26.0,
+              "text": "诶如果电影会比较平啲电影咧，就大约三百蚊一只左右，当时嚟讲主要都系租碟嘅，",
+              "speaker": 2
+            },
+            {
+              "start": 26.0,
+              "end": 33.36,
+              "text": "就好少话会买翻去咯，咁，呢啲，呢只卡拉okk咧，譬如我哋去唱歌嗰时其实以前我哋咪点歌嘅，",
+              "speaker": 2
+            },
+            {
+              "start": 33.36,
+              "end": 44.88,
+              "text": "咁人哋收到，我哋呢只歌之后咧，就会用呢碟摆落去个播放机嗰度减拣咗出嚟俾我哋唱歌咁样咯。",
+              "speaker": 2
+            },
+            {
+              "start": 44.93,
+              "end": 53.48,
+              "text": "当时嚟讲咧，其实咧诶啲人有时买咗只碟翻嚟咧可能就咁放喺度啊诶可能摆喺个窗边嗰度咧，",
+              "speaker": 2
+            },
+            {
+              "start": 53.48,
+              "end": 57.5,
+              "text": "有太阳晒住啊会影响咗个诶个碟嘅质素咯。",
+              "speaker": 2
+            }
+          ]
+        },
+        {
+          "id": "media-storm-06",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "那这个游戏就没法玩了，所以你会发现游戏里的爆炸和脚步...",
+          "sourceId": "117110940375883",
+          "sourceTitle": "音画不同步！为什么视频口型总是怪怪的？",
+          "sourceUrl": "https://www.bilibili.com/video/av117110940375883",
+          "start": 410.13,
+          "end": 468.02,
+          "duration": 57.89,
+          "text": "那这个游戏就没法玩了，所以你会发现游戏里的爆炸和脚步声都是晚了上百毫秒才响。如果你特别依赖声音反应的游戏，那确确实实是你的无线耳机在拖后腿。这也是为什么很多人拿电子竞技的时候会避免使用蓝牙耳机。那还有一种场景，我们自己工作里面非常常见的就是剪辑师。当你带着无线耳机剪视频，不管是拖时间轴，还是随时听下来听某一帧的声音。这对电脑来说和打游戏是一样的，你听到的声音永远比画面晚了一点。如果你正在做卡点剪辑，你觉得刚好的剪辑点很有可能已经偏出去了，就会给你的观众带来不好的体所以果你家尝试视频剪辑的话，有线耳机肯定是更加稳定的选择，甚至外放都会更可靠一点。当然，小心不要被那说到这里，我们可以介绍一个剪辑同步的小技巧。你可能会在剪视频的时候遇到画面和声音怎么调都对不起的情况。这是因为剪辑软件默认的精度就是帧，而声音和画面有时候插了半帧，那就会对不上。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9997,
+          "maxInternalGap": 0.02,
+          "semanticEnd": true,
+          "score": 1.12925,
+          "video": "/media/media-storm/media-storm-06/video.mp4",
+          "audio": "/media/media-storm/media-storm-06/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-06/transcript.srt",
+          "poster": "/media/media-storm/media-storm-06/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 6.63,
+              "text": "那这个游戏就没法玩了，所以你会发现游戏里的爆炸和脚步声都是晚了上百毫秒才响。",
+              "speaker": 0
+            },
+            {
+              "start": 6.63,
+              "end": 11.97,
+              "text": "如果你特别依赖声音反应的游戏，那确确实实是你的无线耳机在拖后腿。",
+              "speaker": 0
+            },
+            {
+              "start": 11.97,
+              "end": 15.6,
+              "text": "这也是为什么很多人拿电子竞技的时候会避免使用蓝牙耳机。",
+              "speaker": 0
+            },
+            {
+              "start": 15.6,
+              "end": 19.86,
+              "text": "那还有一种场景，我们自己工作里面非常常见的就是剪辑师。",
+              "speaker": 0
+            },
+            {
+              "start": 19.86,
+              "end": 25.08,
+              "text": "当你带着无线耳机剪视频，不管是拖时间轴，还是随时听下来听某一帧的声音。",
+              "speaker": 0
+            },
+            {
+              "start": 25.1,
+              "end": 29.45,
+              "text": "这对电脑来说和打游戏是一样的，你听到的声音永远比画面晚了一点。",
+              "speaker": 0
+            },
+            {
+              "start": 29.45,
+              "end": 38.11,
+              "text": "如果你正在做卡点剪辑，你觉得刚好的剪辑点很有可能已经偏出去了，就会给你的观众带来不好的体所以果你家尝试视频剪辑的话，",
+              "speaker": 0
+            },
+            {
+              "start": 38.11,
+              "end": 42.97,
+              "text": "有线耳机肯定是更加稳定的选择，甚至外放都会更可靠一点。",
+              "speaker": 0
+            },
+            {
+              "start": 42.97,
+              "end": 47.99,
+              "text": "当然，小心不要被那说到这里，我们可以介绍一个剪辑同步的小技巧。",
+              "speaker": 0
+            },
+            {
+              "start": 47.99,
+              "end": 51.71,
+              "text": "你可能会在剪视频的时候遇到画面和声音怎么调都对不起的情况。",
+              "speaker": 0
+            },
+            {
+              "start": 51.71,
+              "end": 57.89,
+              "text": "这是因为剪辑软件默认的精度就是帧，而声音和画面有时候插了半帧，那就会对不上。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "media-storm-07",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "背向雷达的一面更暗，地形的起伏就这样被凸显出来，而图...",
+          "sourceId": "117023614964969",
+          "sourceTitle": "租几颗上亿元的卫星，能拍到什么？",
+          "sourceUrl": "https://www.bilibili.com/video/av117023614964969",
+          "start": 391.08,
+          "end": 449.41,
+          "duration": 58.33,
+          "text": "背向雷达的一面更暗，地形的起伏就这样被凸显出来，而图像的颜色则是后期把不同极化通道的回波映射成不同的色彩。帮助我们区分不同的地物信息，并不是完全对应的真实颜色。但其实萨卫星能做的远不止于此，不知道你有没有看过壮志凌云里面那段穿越山谷的飞行，飞机贴着山体高速掠过，一边要避开复杂的地形。一边还要利用山谷躲避雷达。那想要实现这种飞行，前提就是你需要非常清楚这片地形的数据。那两颗萨卫星就可以用种很特别的方式获得这样的信息，就像把两个机位架到了太空里面去拍摄同一个地方。那两个视角之间信号细微的差异，最后就可以被计算成带有高度信息的地形图。所以相对于光学卫星，这飒的用途要广得多啊，它未来的拍摄任务甚至已经排到了几个月之后。但是这一次我们刚好拥有了一颗萨维星24小时的空闲窗口，在一天的时间之内，我们可以从它经过的地方里面挑选自己想拍的坐标。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9926,
+          "maxInternalGap": 0.22,
+          "semanticEnd": true,
+          "score": 1.12618,
+          "video": "/media/media-storm/media-storm-07/video.mp4",
+          "audio": "/media/media-storm/media-storm-07/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-07/transcript.srt",
+          "poster": "/media/media-storm/media-storm-07/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 8.58,
+              "text": "背向雷达的一面更暗，地形的起伏就这样被凸显出来，而图像的颜色则是后期把不同极化通道的回波映射成不同的色彩。",
+              "speaker": 0
+            },
+            {
+              "start": 8.61,
+              "end": 13.26,
+              "text": "帮助我们区分不同的地物信息，并不是完全对应的真实颜色。",
+              "speaker": 0
+            },
+            {
+              "start": 13.26,
+              "end": 20.64,
+              "text": "但其实萨卫星能做的远不止于此，不知道你有没有看过壮志凌云里面那段穿越山谷的飞行，飞机贴着山体高速掠过，",
+              "speaker": 0
+            },
+            {
+              "start": 20.64,
+              "end": 22.5,
+              "text": "一边要避开复杂的地形。",
+              "speaker": 0
+            },
+            {
+              "start": 22.53,
+              "end": 24.3,
+              "text": "一边还要利用山谷躲避雷达。",
+              "speaker": 0
+            },
+            {
+              "start": 24.3,
+              "end": 28.86,
+              "text": "那想要实现这种飞行，前提就是你需要非常清楚这片地形的数据。",
+              "speaker": 0
+            },
+            {
+              "start": 28.86,
+              "end": 36.96,
+              "text": "那两颗萨卫星就可以用种很特别的方式获得这样的信息，就像把两个机位架到了太空里面去拍摄同一个地方。",
+              "speaker": 0
+            },
+            {
+              "start": 37.11,
+              "end": 42.66,
+              "text": "那两个视角之间信号细微的差异，最后就可以被计算成带有高度信息的地形图。",
+              "speaker": 0
+            },
+            {
+              "start": 42.66,
+              "end": 49.32,
+              "text": "所以相对于光学卫星，这飒的用途要广得多啊，它未来的拍摄任务甚至已经排到了几个月之后。",
+              "speaker": 0
+            },
+            {
+              "start": 49.54,
+              "end": 58.33,
+              "text": "但是这一次我们刚好拥有了一颗萨维星24小时的空闲窗口，在一天的时间之内，我们可以从它经过的地方里面挑选自己想拍的坐标。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "media-storm-08",
+          "authorId": "media-storm",
+          "authorName": "影视飓风",
+          "title": "XOCN在我看来几乎不存在明显的缺点，你不需要代理，...",
+          "sourceId": "116963418312973",
+          "sourceTitle": "颠覆行业？索尼FX5深度评测",
+          "sourceUrl": "https://www.bilibili.com/video/av116963418312973",
+          "start": 695.99,
+          "end": 754.03,
+          "duration": 58.04,
+          "text": "XOCN在我看来几乎不存在明显的缺点，你不需要代理，你不需要附加处理，你只需要硬盘。但是说到硬盘这个缺点就出现了。过去索尼XOCN是一个专业的格式存储对于一个大的剧组来说，当然不算什么成本。所以哪怕你用最小的传统的XOLT格式来录制，5K60帧1个小时会需要你700GB左。存储空间，这对于个人来说是一个难以承受的数据量。那FX5即便拥有双CFA卡槽，同时兼入SD卡，但不管你选择哪一种存储，这就意味着你后期存储卡移动硬盘阵列，你都要去升级它，这真的太贵了。那索尼不笨，他们知道加上一个看着美好，作为噱头的没有意义。所以在FX5的XOCN菜单里面，你会看到两个新的模式。C1，还有C2，我们没有必要细究它的各项指。但是简单来说，他们都是ro，他们都是16比特。",
+          "dominantSpeaker": "2",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9986,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12942,
+          "video": "/media/media-storm/media-storm-08/video.mp4",
+          "audio": "/media/media-storm/media-storm-08/audio.mp3",
+          "subtitle": "/media/media-storm/media-storm-08/transcript.srt",
+          "poster": "/media/media-storm/media-storm-08/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 7.44,
+              "text": "XOCN在我看来几乎不存在明显的缺点，你不需要代理，你不需要附加处理，你只需要硬盘。",
+              "speaker": 2
+            },
+            {
+              "start": 7.44,
+              "end": 10.2,
+              "text": "但是说到硬盘这个缺点就出现了。",
+              "speaker": 2
+            },
+            {
+              "start": 10.2,
+              "end": 15.6,
+              "text": "过去索尼XOCN是一个专业的格式存储对于一个大的剧组来说，当然不算什么成本。",
+              "speaker": 2
+            },
+            {
+              "start": 15.6,
+              "end": 23.88,
+              "text": "所以哪怕你用最小的传统的XOLT格式来录制，5K60帧1个小时会需要你700GB左。",
+              "speaker": 2
+            },
+            {
+              "start": 23.92,
+              "end": 27.67,
+              "text": "存储空间，这对于个人来说是一个难以承受的数据量。",
+              "speaker": 2
+            },
+            {
+              "start": 27.67,
+              "end": 37.21,
+              "text": "那FX5即便拥有双CFA卡槽，同时兼入SD卡，但不管你选择哪一种存储，这就意味着你后期存储卡移动硬盘阵列，",
+              "speaker": 2
+            },
+            {
+              "start": 37.21,
+              "end": 39.67,
+              "text": "你都要去升级它，这真的太贵了。",
+              "speaker": 2
+            },
+            {
+              "start": 39.67,
+              "end": 44.83,
+              "text": "那索尼不笨，他们知道加上一个看着美好，作为噱头的没有意义。",
+              "speaker": 2
+            },
+            {
+              "start": 44.83,
+              "end": 49.93,
+              "text": "所以在FX5的XOCN菜单里面，你会看到两个新的模式。",
+              "speaker": 2
+            },
+            {
+              "start": 49.93,
+              "end": 53.89,
+              "text": "C1，还有C2，我们没有必要细究它的各项指。",
+              "speaker": 2
+            },
+            {
+              "start": 53.93,
+              "end": 58.04,
+              "text": "但是简单来说，他们都是ro，他们都是16比特。",
+              "speaker": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qiuzhi",
+      "name": "秋芝",
+      "bilibiliMid": "385670211",
+      "avatar": "/avatars/qiuzhi.jpg",
+      "clips": [
+        {
+          "id": "qiuzhi-01",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "到底什么是skill？skillki呢翻译过来就是技...",
+          "sourceId": "116000439664997",
+          "sourceTitle": "手把手彻底学会 Agent Skills！【小白教程】",
+          "sourceUrl": "https://www.bilibili.com/video/av116000439664997",
+          "start": 73.39,
+          "end": 131.39,
+          "duration": 58.0,
+          "text": "到底什么是skill？skillki呢翻译过来就是技能呗，它其实和人类的技能是类似的。比如说你是一个厨师，那你就有炒菜的技能，处理食材的技能，摆盘的技能等等等等。那每个技能里面，比如说炒菜技能，这里面就包含了你的流程，你要先炒什么后放什么。还有你的配方，你的油温多高，盐放多少。有了流程和配方呢，你可能还会需要一些工具，需要煤气灶什么的，甚至你可能还会有一些独家的材料，有一勺秘制辣椒酱什么的。那Aent的技能也是同理，他要来做菜，他也得有流程、配方、工具和材料。所以在Aentskill的术语里面呢，它就是skill点MDfersscripts。和asses这些东西打包成一个文件夹，这就是一个技能，一个skill了。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9978,
+          "maxInternalGap": 0.05,
+          "semanticEnd": true,
+          "score": 1.12944,
+          "video": "/media/qiuzhi/qiuzhi-01/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-01/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-01/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-01/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 2.79,
+              "text": "到底什么是skill？",
+              "speaker": 0
+            },
+            {
+              "start": 2.79,
+              "end": 8.19,
+              "text": "skillki呢翻译过来就是技能呗，它其实和人类的技能是类似的。",
+              "speaker": 0
+            },
+            {
+              "start": 8.22,
+              "end": 14.85,
+              "text": "比如说你是一个厨师，那你就有炒菜的技能，处理食材的技能，摆盘的技能等等等等。",
+              "speaker": 0
+            },
+            {
+              "start": 14.85,
+              "end": 22.71,
+              "text": "那每个技能里面，比如说炒菜技能，这里面就包含了你的流程，你要先炒什么后放什么。",
+              "speaker": 0
+            },
+            {
+              "start": 22.74,
+              "end": 26.37,
+              "text": "还有你的配方，你的油温多高，盐放多少。",
+              "speaker": 0
+            },
+            {
+              "start": 26.37,
+              "end": 34.65,
+              "text": "有了流程和配方呢，你可能还会需要一些工具，需要煤气灶什么的，甚至你可能还会有一些独家的材料，",
+              "speaker": 0
+            },
+            {
+              "start": 34.65,
+              "end": 37.05,
+              "text": "有一勺秘制辣椒酱什么的。",
+              "speaker": 0
+            },
+            {
+              "start": 37.1,
+              "end": 43.97,
+              "text": "那Aent的技能也是同理，他要来做菜，他也得有流程、配方、工具和材料。",
+              "speaker": 0
+            },
+            {
+              "start": 43.97,
+              "end": 51.47,
+              "text": "所以在Aentskill的术语里面呢，它就是skill点MDfersscripts。",
+              "speaker": 0
+            },
+            {
+              "start": 51.49,
+              "end": 58.0,
+              "text": "和asses这些东西打包成一个文件夹，这就是一个技能，一个skill了。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-02",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "说明他们特别关心您，我要先祝咱们一家人都身体健康，福...",
+          "sourceId": "116078889929906",
+          "sourceTitle": "教父母学会用豆包，建议转发给全家人～",
+          "sourceUrl": "https://www.bilibili.com/video/av116078889929906",
+          "start": 44.45,
+          "end": 102.72,
+          "duration": 58.27,
+          "text": "说明他们特别关心您，我要先祝咱们一家人都身体健康，福气满满。那今天呢我准备教您学会用豆包AI一听AI您不要害怕。首先呢他是今年要上春。满的大品牌完全都是免费的。然后呢，它其实也一点都不难，他就像是住在您手机里的一个好朋友。孔子曾说，一有有三，有直有量有多文。那豆包呢就是这么一个正直诚实、博学多识的好朋友。首先呢这个朋友什么都懂，咱们遇到任何问题都可以问他。当然我知道有一些叔叔阿姨们怕打字很麻烦，没关系，豆包可以打电话点这个电话按钮，我们就能跟他打电话了，说方言他也能听懂，而且不用话费的，打多久都没事儿。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9993,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12821,
+          "video": "/media/qiuzhi/qiuzhi-02/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-02/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-02/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-02/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 6.24,
+              "text": "说明他们特别关心您，我要先祝咱们一家人都身体健康，福气满满。",
+              "speaker": 0
+            },
+            {
+              "start": 6.24,
+              "end": 13.08,
+              "text": "那今天呢我准备教您学会用豆包AI一听AI您不要害怕。",
+              "speaker": 0
+            },
+            {
+              "start": 13.08,
+              "end": 15.54,
+              "text": "首先呢他是今年要上春。",
+              "speaker": 0
+            },
+            {
+              "start": 15.58,
+              "end": 18.13,
+              "text": "满的大品牌完全都是免费的。",
+              "speaker": 0
+            },
+            {
+              "start": 18.13,
+              "end": 24.67,
+              "text": "然后呢，它其实也一点都不难，他就像是住在您手机里的一个好朋友。",
+              "speaker": 0
+            },
+            {
+              "start": 24.67,
+              "end": 29.95,
+              "text": "孔子曾说，一有有三，有直有量有多文。",
+              "speaker": 0
+            },
+            {
+              "start": 29.95,
+              "end": 38.74,
+              "text": "那豆包呢就是这么一个正直诚实、博学多识的好朋友。",
+              "speaker": 0
+            },
+            {
+              "start": 38.74,
+              "end": 43.9,
+              "text": "首先呢这个朋友什么都懂，咱们遇到任何问题都可以问他。",
+              "speaker": 0
+            },
+            {
+              "start": 43.9,
+              "end": 51.31,
+              "text": "当然我知道有一些叔叔阿姨们怕打字很麻烦，没关系，豆包可以打电话点这个电话按钮，",
+              "speaker": 0
+            },
+            {
+              "start": 51.31,
+              "end": 58.27,
+              "text": "我们就能跟他打电话了，说方言他也能听懂，而且不用话费的，打多久都没事儿。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-03",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "那他这里面的打斗，这些肢体呢有一小部分是不合理的。比...",
+          "sourceId": "116098066287871",
+          "sourceTitle": "人人免费出大片！豆包Seedance 2.0实测对比+解析！",
+          "sourceUrl": "https://www.bilibili.com/video/av116098066287871",
+          "start": 154.78,
+          "end": 212.71,
+          "duration": 57.93,
+          "text": "那他这里面的打斗，这些肢体呢有一小部分是不合理的。比如说他这个拳好像挥的就是一个空拳。但是我们基本上肉眼看不出穿帮了。然后他的这个呼吸声拳头深都跟他的动作是对应上了的，15秒里面把三种氛围全部都展现的很到位啊，刚开始紧张，然后激烈，最后尘埃落定，那其实真实感。说起来就三个字，但其实它里面包含了过去视频模型PK的那些所有的光影、美学质感、运动效果、物理遵循各类指标。其实原来我们说抽卡就是因为它的真实感。一直有问题，而Cdent2.0基本上就是做到了百分之八九十都是合理真实的。第二是这也是cdance重新定义游戏非常重要的一点。我们来看这一段我跑的飞机逝事的案例，先看sra。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9991,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12936,
+          "video": "/media/qiuzhi/qiuzhi-03/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-03/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-03/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-03/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 4.62,
+              "text": "那他这里面的打斗，这些肢体呢有一小部分是不合理的。",
+              "speaker": 0
+            },
+            {
+              "start": 4.62,
+              "end": 6.96,
+              "text": "比如说他这个拳好像挥的就是一个空拳。",
+              "speaker": 0
+            },
+            {
+              "start": 6.96,
+              "end": 10.08,
+              "text": "但是我们基本上肉眼看不出穿帮了。",
+              "speaker": 0
+            },
+            {
+              "start": 10.08,
+              "end": 19.08,
+              "text": "然后他的这个呼吸声拳头深都跟他的动作是对应上了的，15秒里面把三种氛围全部都展现的很到位啊，",
+              "speaker": 0
+            },
+            {
+              "start": 19.08,
+              "end": 23.4,
+              "text": "刚开始紧张，然后激烈，最后尘埃落定，那其实真实感。",
+              "speaker": 0
+            },
+            {
+              "start": 23.44,
+              "end": 34.27,
+              "text": "说起来就三个字，但其实它里面包含了过去视频模型PK的那些所有的光影、美学质感、运动效果、物理遵循各类指标。",
+              "speaker": 0
+            },
+            {
+              "start": 34.27,
+              "end": 37.39,
+              "text": "其实原来我们说抽卡就是因为它的真实感。",
+              "speaker": 0
+            },
+            {
+              "start": 37.4,
+              "end": 44.63,
+              "text": "一直有问题，而Cdent2.0基本上就是做到了百分之八九十都是合理真实的。",
+              "speaker": 0
+            },
+            {
+              "start": 44.63,
+              "end": 49.89,
+              "text": "第二是这也是cdance重新定义游戏非常重要的一点。",
+              "speaker": 0
+            },
+            {
+              "start": 49.89,
+              "end": 57.93,
+              "text": "我们来看这一段我跑的飞机逝事的案例，先看sra。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-04",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "不管是选快速选思考，还是选pro模式，底层它跑的都是...",
+          "sourceId": "116157910616752",
+          "sourceTitle": "又变强了！Nano Banana 2究极强大玩法～【免费渠道合集】",
+          "sourceUrl": "https://www.bilibili.com/video/av116157910616752",
+          "start": 100.44,
+          "end": 158.56,
+          "duration": 58.12,
+          "text": "不管是选快速选思考，还是选pro模式，底层它跑的都是nnobanana2。那另外谷歌的flow现在是目前所有人都可以免费用nnobananapro和2的。那第一个上一代都直接没法做到的就是多尺寸输出了，这个所以就没法对比了。但是它玩法很多。那我们先看这个，我给了他一张参考图，让它拓展成1比8超长比例的。你看看这个效果非常好，我们呢也还可以让它拓展成8比1的超长的图片，它还会按这个比例帮我们做了一个更合适的排版，帮我们重构了一下。啊，比如说他把我们的字体给竖过来了，还没有出现错误。所以设计师就特别好用。那这个呢是我让他设计的电商横幅图，效果也很不错。但是大家注意了，从真奶下载下来的时候，你最好是点这里这里。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9993,
+          "maxInternalGap": 0.02,
+          "semanticEnd": true,
+          "score": 1.12911,
+          "video": "/media/qiuzhi/qiuzhi-04/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-04/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-04/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-04/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 5.61,
+              "text": "不管是选快速选思考，还是选pro模式，底层它跑的都是nnobanana2。",
+              "speaker": 0
+            },
+            {
+              "start": 5.61,
+              "end": 14.67,
+              "text": "那另外谷歌的flow现在是目前所有人都可以免费用nnobananapro和2的。",
+              "speaker": 0
+            },
+            {
+              "start": 14.69,
+              "end": 21.5,
+              "text": "那第一个上一代都直接没法做到的就是多尺寸输出了，这个所以就没法对比了。",
+              "speaker": 0
+            },
+            {
+              "start": 21.5,
+              "end": 22.76,
+              "text": "但是它玩法很多。",
+              "speaker": 0
+            },
+            {
+              "start": 22.76,
+              "end": 29.12,
+              "text": "那我们先看这个，我给了他一张参考图，让它拓展成1比8超长比例的。",
+              "speaker": 0
+            },
+            {
+              "start": 29.13,
+              "end": 39.12,
+              "text": "你看看这个效果非常好，我们呢也还可以让它拓展成8比1的超长的图片，它还会按这个比例帮我们做了一个更合适的排版，",
+              "speaker": 0
+            },
+            {
+              "start": 39.12,
+              "end": 40.38,
+              "text": "帮我们重构了一下。",
+              "speaker": 0
+            },
+            {
+              "start": 40.38,
+              "end": 44.1,
+              "text": "啊，比如说他把我们的字体给竖过来了，还没有出现错误。",
+              "speaker": 0
+            },
+            {
+              "start": 44.11,
+              "end": 46.0,
+              "text": "所以设计师就特别好用。",
+              "speaker": 0
+            },
+            {
+              "start": 46.0,
+              "end": 50.32,
+              "text": "那这个呢是我让他设计的电商横幅图，效果也很不错。",
+              "speaker": 0
+            },
+            {
+              "start": 50.32,
+              "end": 58.12,
+              "text": "但是大家注意了，从真奶下载下来的时候，你最好是点这里这里。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-05",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "复杂决策就特别有用。那比如说我们刚刚买完了房要搞装修...",
+          "sourceId": "116334490880824",
+          "sourceTitle": "小白也能拥有的“AI专家”～【建议收藏】",
+          "sourceUrl": "https://www.bilibili.com/video/av116334490880824",
+          "start": 182.62,
+          "end": 240.38,
+          "duration": 57.76,
+          "text": "复杂决策就特别有用。那比如说我们刚刚买完了房要搞装修吧，你收到一家装修公司的报价，感觉看起来很划算。可能很多人就是看这个价格和跟这个销售聊天的感觉就定了。但是作为外行，我们其实根本没法知道他报的高还是低，我们更看不出这里面藏了哪些坑。那我们呢可以把这个报价单发给专家模式，告诉他我们的要求，比如隔音和电路设计要好，我们的质感要好，金属的质感不能是那种凹凸不平的，然后让他对这份报价做一个评估。那他呢就会根据我们报价里的条目，针对不清楚的地方就去搜索当地的材料报价。然后你看他他说这个报价虽然低，但是商家完全是通过剪配核心工艺，模糊材料规格，遗漏必做项目来实现的，完全不匹配我们的核心需求啊。然后说到他的石膏板只有单层。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9958,
+          "maxInternalGap": 0.19,
+          "semanticEnd": true,
+          "score": 1.12752,
+          "video": "/media/qiuzhi/qiuzhi-05/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-05/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-05/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-05/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 4.08,
+              "text": "复杂决策就特别有用。",
+              "speaker": 0
+            },
+            {
+              "start": 4.08,
+              "end": 10.47,
+              "text": "那比如说我们刚刚买完了房要搞装修吧，你收到一家装修公司的报价，感觉看起来很划算。",
+              "speaker": 0
+            },
+            {
+              "start": 10.47,
+              "end": 15.33,
+              "text": "可能很多人就是看这个价格和跟这个销售聊天的感觉就定了。",
+              "speaker": 0
+            },
+            {
+              "start": 15.33,
+              "end": 21.45,
+              "text": "但是作为外行，我们其实根本没法知道他报的高还是低，我们更看不出这里面藏了哪些坑。",
+              "speaker": 0
+            },
+            {
+              "start": 21.5,
+              "end": 28.97,
+              "text": "那我们呢可以把这个报价单发给专家模式，告诉他我们的要求，比如隔音和电路设计要好，我们的质感要好，",
+              "speaker": 0
+            },
+            {
+              "start": 28.97,
+              "end": 34.37,
+              "text": "金属的质感不能是那种凹凸不平的，然后让他对这份报价做一个评估。",
+              "speaker": 0
+            },
+            {
+              "start": 34.56,
+              "end": 41.31,
+              "text": "那他呢就会根据我们报价里的条目，针对不清楚的地方就去搜索当地的材料报价。",
+              "speaker": 0
+            },
+            {
+              "start": 41.31,
+              "end": 49.72,
+              "text": "然后你看他他说这个报价虽然低，但是商家完全是通过剪配核心工艺，",
+              "speaker": 0
+            },
+            {
+              "start": 49.72,
+              "end": 55.54,
+              "text": "模糊材料规格，遗漏必做项目来实现的，完全不匹配我们的核心需求啊。",
+              "speaker": 0
+            },
+            {
+              "start": 55.54,
+              "end": 57.76,
+              "text": "然后说到他的石膏板只有单层。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-06",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "十几个小时你坐下去，你完全不会觉得硌。我第一次做的时...",
+          "sourceId": "116386080820447",
+          "sourceTitle": "躺着办公这么爽？AI时代好东西分享1.0",
+          "sourceUrl": "https://www.bilibili.com/video/av116386080820447",
+          "start": 409.85,
+          "end": 467.98,
+          "duration": 58.13,
+          "text": "十几个小时你坐下去，你完全不会觉得硌。我第一次做的时候，我就很纳闷哎。这个好舒服，为什么以前的那些椅子不都用这种海绵呢？结果我看了网上说，因为海绵的透气性不太好，比较容易出汗。但是我当时觉得也不应该啊，为了透气就吸身舒服吗？后来我才知道，有一些海外的高端椅子，比如赫曼米勒，那它的哲学就是鼓励你多站起来。这个倾弦呢就比较现实。它的这个pro直接做了一个坐垫通风，这儿有个4。四00转每分钟的风扇在向下抽气，什么热气，湿气都会快速给你抽走，坐上去就感觉凉凉的。如果你起来接杯水呢，它就会自动关停这个风扇，你坐回去它又自己重开了。这不就很完美的一把解决了舒适和通风吗？而且它还有个脊柱拉伸按摩的功能。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9981,
+          "maxInternalGap": 0.05,
+          "semanticEnd": true,
+          "score": 1.12875,
+          "video": "/media/qiuzhi/qiuzhi-06/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-06/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-06/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-06/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 3.78,
+              "text": "十几个小时你坐下去，你完全不会觉得硌。",
+              "speaker": 0
+            },
+            {
+              "start": 3.78,
+              "end": 6.66,
+              "text": "我第一次做的时候，我就很纳闷哎。",
+              "speaker": 0
+            },
+            {
+              "start": 6.71,
+              "end": 10.58,
+              "text": "这个好舒服，为什么以前的那些椅子不都用这种海绵呢？",
+              "speaker": 0
+            },
+            {
+              "start": 10.58,
+              "end": 15.5,
+              "text": "结果我看了网上说，因为海绵的透气性不太好，比较容易出汗。",
+              "speaker": 0
+            },
+            {
+              "start": 15.5,
+              "end": 20.12,
+              "text": "但是我当时觉得也不应该啊，为了透气就吸身舒服吗？",
+              "speaker": 0
+            },
+            {
+              "start": 20.12,
+              "end": 27.71,
+              "text": "后来我才知道，有一些海外的高端椅子，比如赫曼米勒，那它的哲学就是鼓励你多站起来。",
+              "speaker": 0
+            },
+            {
+              "start": 27.71,
+              "end": 29.87,
+              "text": "这个倾弦呢就比较现实。",
+              "speaker": 0
+            },
+            {
+              "start": 29.87,
+              "end": 34.73,
+              "text": "它的这个pro直接做了一个坐垫通风，这儿有个4。",
+              "speaker": 0
+            },
+            {
+              "start": 34.75,
+              "end": 41.56,
+              "text": "四00转每分钟的风扇在向下抽气，什么热气，湿气都会快速给你抽走，",
+              "speaker": 0
+            },
+            {
+              "start": 41.56,
+              "end": 43.36,
+              "text": "坐上去就感觉凉凉的。",
+              "speaker": 0
+            },
+            {
+              "start": 43.36,
+              "end": 49.66,
+              "text": "如果你起来接杯水呢，它就会自动关停这个风扇，你坐回去它又自己重开了。",
+              "speaker": 0
+            },
+            {
+              "start": 49.7,
+              "end": 55.19,
+              "text": "这不就很完美的一把解决了舒适和通风吗？",
+              "speaker": 0
+            },
+            {
+              "start": 55.19,
+              "end": 58.13,
+              "text": "而且它还有个脊柱拉伸按摩的功能。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-07",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "这个应用是我们完全不懂开发的运营同学用妙杂做的一天完...",
+          "sourceId": "116436311739521",
+          "sourceTitle": "用AI的方式，重新打开飞书！【建议收藏】",
+          "sourceUrl": "https://www.bilibili.com/video/av116436311739521",
+          "start": 623.63,
+          "end": 681.72,
+          "duration": 58.09,
+          "text": "这个应用是我们完全不懂开发的运营同学用妙杂做的一天完成。而且更妙的是，有些东西你不用去开发，比如说它直接就可以帮你锁定一个飞书用户，只能领取一次。而且当你申请了邀请码之后，运营同学就会看见申请。然后他再点一个通过，用户也就会在页面上收到邀请了。然后是另一项很伟大的发明，多维表格agent。因为过去很多朋友学习这个多维表格，要看好几天的课，摸索和练习这么一两周，才能说自己稍微掌握了一点。更关键的是，就算你学会了操作这个表格，很多朋友也苦于。不会去设计这种表格系统，因为业务逻辑设计起来才是最难的。数据之间要怎么勾连，要建几张表，哪些字段要联动，要想清楚这些就要花很多时间，那现在就全都不用了。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9988,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12916,
+          "video": "/media/qiuzhi/qiuzhi-07/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-07/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-07/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-07/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 6.09,
+              "text": "这个应用是我们完全不懂开发的运营同学用妙杂做的一天完成。",
+              "speaker": 0
+            },
+            {
+              "start": 6.09,
+              "end": 13.29,
+              "text": "而且更妙的是，有些东西你不用去开发，比如说它直接就可以帮你锁定一个飞书用户，",
+              "speaker": 0
+            },
+            {
+              "start": 13.29,
+              "end": 14.61,
+              "text": "只能领取一次。",
+              "speaker": 0
+            },
+            {
+              "start": 14.65,
+              "end": 18.34,
+              "text": "而且当你申请了邀请码之后，运营同学就会看见申请。",
+              "speaker": 0
+            },
+            {
+              "start": 18.34,
+              "end": 22.9,
+              "text": "然后他再点一个通过，用户也就会在页面上收到邀请了。",
+              "speaker": 0
+            },
+            {
+              "start": 22.9,
+              "end": 28.78,
+              "text": "然后是另一项很伟大的发明，多维表格agent。",
+              "speaker": 0
+            },
+            {
+              "start": 28.8,
+              "end": 35.79,
+              "text": "因为过去很多朋友学习这个多维表格，要看好几天的课，摸索和练习这么一两周，",
+              "speaker": 0
+            },
+            {
+              "start": 35.79,
+              "end": 37.95,
+              "text": "才能说自己稍微掌握了一点。",
+              "speaker": 0
+            },
+            {
+              "start": 37.95,
+              "end": 43.23,
+              "text": "更关键的是，就算你学会了操作这个表格，很多朋友也苦于。",
+              "speaker": 0
+            },
+            {
+              "start": 43.24,
+              "end": 48.07,
+              "text": "不会去设计这种表格系统，因为业务逻辑设计起来才是最难的。",
+              "speaker": 0
+            },
+            {
+              "start": 48.07,
+              "end": 55.57,
+              "text": "数据之间要怎么勾连，要建几张表，哪些字段要联动，要想清楚这些就要花很多时间，",
+              "speaker": 0
+            },
+            {
+              "start": 55.57,
+              "end": 58.09,
+              "text": "那现在就全都不用了。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "qiuzhi-08",
+          "authorId": "qiuzhi",
+          "authorName": "秋芝",
+          "title": "那技能就是解决这个问题的技能呢其实就是一组指令，把一...",
+          "sourceId": "116944258728161",
+          "sourceTitle": "豆包真能干活了！【豆包Agent入门教程】",
+          "sourceUrl": "https://www.bilibili.com/video/av116944258728161",
+          "start": 243.3,
+          "end": 301.06,
+          "duration": 57.76,
+          "text": "那技能就是解决这个问题的技能呢其实就是一组指令，把一件我们反复要干的活规则和流程。都按照固定的格式给它写好以后，每次只要干这个事儿，豆包就会触发这个技能，然后照着我们的规矩来出火。那豆包内置就给我们提供了一些技能。我们点开这个技能。你就会看到有一大批的内置技能，有做表格可视化的，有做PPT的，有做短剧创作的、做应用等等等等，将近20多个。那我们可以选一个稍微有难度一点的创意视频来试试。哎，没错，因为豆包还可以生成图片，生成视频。那这个文件呢是我的一个轻石店的一物料。我让豆包来帮我把我的青食店做一个发到社交媒体的宣传片。要符合年轻人的喜好，然后告诉他物料都放在这个文件夹了。OK请看它的结果。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9972,
+          "maxInternalGap": 0.06,
+          "semanticEnd": true,
+          "score": 1.12787,
+          "video": "/media/qiuzhi/qiuzhi-08/video.mp4",
+          "audio": "/media/qiuzhi/qiuzhi-08/audio.mp3",
+          "subtitle": "/media/qiuzhi/qiuzhi-08/transcript.srt",
+          "poster": "/media/qiuzhi/qiuzhi-08/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 8.88,
+              "text": "那技能就是解决这个问题的技能呢其实就是一组指令，把一件我们反复要干的活规则和流程。",
+              "speaker": 0
+            },
+            {
+              "start": 8.9,
+              "end": 17.57,
+              "text": "都按照固定的格式给它写好以后，每次只要干这个事儿，豆包就会触发这个技能，然后照着我们的规矩来出火。",
+              "speaker": 0
+            },
+            {
+              "start": 17.57,
+              "end": 20.27,
+              "text": "那豆包内置就给我们提供了一些技能。",
+              "speaker": 0
+            },
+            {
+              "start": 20.27,
+              "end": 22.01,
+              "text": "我们点开这个技能。",
+              "speaker": 0
+            },
+            {
+              "start": 22.06,
+              "end": 30.73,
+              "text": "你就会看到有一大批的内置技能，有做表格可视化的，有做PPT的，有做短剧创作的、做应用等等等等，",
+              "speaker": 0
+            },
+            {
+              "start": 30.73,
+              "end": 31.69,
+              "text": "将近20多个。",
+              "speaker": 0
+            },
+            {
+              "start": 31.69,
+              "end": 36.61,
+              "text": "那我们可以选一个稍微有难度一点的创意视频来试试。",
+              "speaker": 0
+            },
+            {
+              "start": 36.64,
+              "end": 40.03,
+              "text": "哎，没错，因为豆包还可以生成图片，生成视频。",
+              "speaker": 0
+            },
+            {
+              "start": 40.03,
+              "end": 43.99,
+              "text": "那这个文件呢是我的一个轻石店的一物料。",
+              "speaker": 0
+            },
+            {
+              "start": 43.99,
+              "end": 49.99,
+              "text": "我让豆包来帮我把我的青食店做一个发到社交媒体的宣传片。",
+              "speaker": 0
+            },
+            {
+              "start": 50.05,
+              "end": 54.7,
+              "text": "要符合年轻人的喜好，然后告诉他物料都放在这个文件夹了。",
+              "speaker": 0
+            },
+            {
+              "start": 54.7,
+              "end": 57.76,
+              "text": "OK请看它的结果。",
+              "speaker": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xiaolin",
+      "name": "小lin说",
+      "bilibiliMid": "520819684",
+      "avatar": "/avatars/xiaolin.jpg",
+      "clips": [
+        {
+          "id": "xiaolin-01",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "地产赚到了钱，万达就早早开始开支散业，往其他领域发展...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 84.07,
+          "end": 142.51,
+          "duration": 58.44,
+          "text": "地产赚到了钱，万达就早早开始开支散业，往其他领域发展，电影、旅游、体育、金融、百货，咱都来试试。2016年巅峰时期的万达有接近8000亿的资产，一年营收高达2500多亿。这个阶段意气风发的王健林就说出了那句著名的小目标。比方说我先挣钱一个亿。年会上还高歌了一曲，一无所有。跟，你别说唱的还真挺有那味儿的。好，咱们先整体看一下它16年巅峰时期那会儿的商业版图，最核心的呢叫万达商业，一年营收1430亿。这里最主要的就是商业地产，也就是咱们经常看到的万达广场啊、写字楼啊、商铺等等。2014年12月，这个大连万达商业地产在香港上市，也是当年港股最大的IPO除此之外，它还盖酒店、盖度假村等等，这一大块都是。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9995,
+          "maxInternalGap": 0.01,
+          "semanticEnd": true,
+          "score": 1.12723,
+          "video": "/media/xiaolin/xiaolin-01/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-01/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-01/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-01/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 6.81,
+              "text": "地产赚到了钱，万达就早早开始开支散业，往其他领域发展，电影、旅游、体育、金融、百货，",
+              "speaker": 0
+            },
+            {
+              "start": 6.81,
+              "end": 9.15,
+              "text": "咱都来试试。",
+              "speaker": 0
+            },
+            {
+              "start": 9.16,
+              "end": 14.59,
+              "text": "2016年巅峰时期的万达有接近8000亿的资产，一年营收高达2500多亿。",
+              "speaker": 0
+            },
+            {
+              "start": 14.59,
+              "end": 18.55,
+              "text": "这个阶段意气风发的王健林就说出了那句著名的小目标。",
+              "speaker": 0
+            },
+            {
+              "start": 18.55,
+              "end": 22.93,
+              "text": "比方说我先挣钱一个亿。",
+              "speaker": 0
+            },
+            {
+              "start": 22.94,
+              "end": 30.89,
+              "text": "年会上还高歌了一曲，一无所有。",
+              "speaker": 0
+            },
+            {
+              "start": 30.89,
+              "end": 34.79,
+              "text": "跟，你别说唱的还真挺有那味儿的。",
+              "speaker": 0
+            },
+            {
+              "start": 34.8,
+              "end": 42.21,
+              "text": "好，咱们先整体看一下它16年巅峰时期那会儿的商业版图，最核心的呢叫万达商业，",
+              "speaker": 0
+            },
+            {
+              "start": 42.21,
+              "end": 43.83,
+              "text": "一年营收1430亿。",
+              "speaker": 0
+            },
+            {
+              "start": 43.83,
+              "end": 49.5,
+              "text": "这里最主要的就是商业地产，也就是咱们经常看到的万达广场啊、写字楼啊、商铺等等。",
+              "speaker": 0
+            },
+            {
+              "start": 49.5,
+              "end": 57.42,
+              "text": "2014年12月，这个大连万达商业地产在香港上市，也是当年港股最大的IPO除此之外，它还盖酒店、盖度假村等等，",
+              "speaker": 0
+            },
+            {
+              "start": 57.42,
+              "end": 58.44,
+              "text": "这一大块都是。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-02",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "港股怎么退市呢？就得花钱把市场上所有的流通股给买回来...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 268.62,
+          "end": 326.45,
+          "duration": 57.83,
+          "text": "港股怎么退市呢？就得花钱把市场上所有的流通股给买回来，这个大概需要300多亿港元。这300多亿的现金即使对万达来说也没那么容易，一下就拿出来怎么办？老王就去找金主了，哎，你们借我钱帮我推市，咱这以后是要A股上市的，到时候这价值不得成倍往上翻，怎么样？我可是中国首富，那还能信不过，嘿嘿是吧？听着是挺吸引人的。很顺利的就拉来了，包括杉杉、中国平安、中铁等等，融了大概300亿人民币。在2016年回购了达连万达所有的港股的流通股，大概占总股本的14%，成功退市。但这300亿的钱，它可不是一个简单的借款。这背后呢有一个约定，你可以把它理解成一个对赌。万达必须得在2018年8月31日前完成上市。如果成功登陆A股，皆大欢喜，如果不成功。老王就得花钱把这些股份给买回来，还得支付年化10%到12%不等的利息。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9976,
+          "maxInternalGap": 0.05,
+          "semanticEnd": true,
+          "score": 1.12837,
+          "video": "/media/xiaolin/xiaolin-02/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-02/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-02/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-02/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 1.05,
+              "text": "港股怎么退市呢？",
+              "speaker": 0
+            },
+            {
+              "start": 1.05,
+              "end": 6.33,
+              "text": "就得花钱把市场上所有的流通股给买回来，这个大概需要300多亿港元。",
+              "speaker": 0
+            },
+            {
+              "start": 6.33,
+              "end": 11.97,
+              "text": "这300多亿的现金即使对万达来说也没那么容易，一下就拿出来怎么办？",
+              "speaker": 0
+            },
+            {
+              "start": 11.98,
+              "end": 19.81,
+              "text": "老王就去找金主了，哎，你们借我钱帮我推市，咱这以后是要A股上市的，到时候这价值不得成倍往上翻，",
+              "speaker": 0
+            },
+            {
+              "start": 19.81,
+              "end": 20.23,
+              "text": "怎么样？",
+              "speaker": 0
+            },
+            {
+              "start": 20.23,
+              "end": 24.13,
+              "text": "我可是中国首富，那还能信不过，嘿嘿是吧？",
+              "speaker": 0
+            },
+            {
+              "start": 24.13,
+              "end": 25.27,
+              "text": "听着是挺吸引人的。",
+              "speaker": 0
+            },
+            {
+              "start": 25.32,
+              "end": 30.39,
+              "text": "很顺利的就拉来了，包括杉杉、中国平安、中铁等等，融了大概300亿人民币。",
+              "speaker": 0
+            },
+            {
+              "start": 30.39,
+              "end": 37.71,
+              "text": "在2016年回购了达连万达所有的港股的流通股，大概占总股本的14%，成功退市。",
+              "speaker": 0
+            },
+            {
+              "start": 37.75,
+              "end": 40.6,
+              "text": "但这300亿的钱，它可不是一个简单的借款。",
+              "speaker": 0
+            },
+            {
+              "start": 40.6,
+              "end": 45.52,
+              "text": "这背后呢有一个约定，你可以把它理解成一个对赌。",
+              "speaker": 0
+            },
+            {
+              "start": 45.52,
+              "end": 49.48,
+              "text": "万达必须得在2018年8月31日前完成上市。",
+              "speaker": 0
+            },
+            {
+              "start": 49.48,
+              "end": 52.66,
+              "text": "如果成功登陆A股，皆大欢喜，如果不成功。",
+              "speaker": 0
+            },
+            {
+              "start": 52.7,
+              "end": 57.83,
+              "text": "老王就得花钱把这些股份给买回来，还得支付年化10%到12%不等的利息。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-03",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "从这儿就开始慢慢转。哎，我们刚才说的这都是第一回哈，...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 334.98,
+          "end": 393.09,
+          "duration": 58.11,
+          "text": "从这儿就开始慢慢转。哎，我们刚才说的这都是第一回哈，老王开启了他的主线任务。什么A股上市。这块我们先暂且按下不表，老王紧接着又接到了一个支线任务，啊，迎来了新的挑战。这个支线任务在哪呢？海外那几年万达不是很牛吗？在海外疯狂买买就有人粗略估算过，万达一共在海外投了250亿到300亿美元左右，大概相当于他当时总资产的20%。其实不光是万达，当时还有什么海航、复兴、安邦等等，都很喜欢在外边买。2016年上半年。中国公司在海外可查的投资额就有2158亿美元。那万达海外投资需要这么多钱，哪来的，你可别想当然就觉得啊那么大个公司肯定很有钱哎。房地产公司它本质上是一个杠杆游戏，它资产很多，但现金其实并不多。那我们刚才300亿人民币就得找人借，更何况这是几百亿美元的海外投资。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9929,
+          "maxInternalGap": 0.35,
+          "semanticEnd": true,
+          "score": 1.12758,
+          "video": "/media/xiaolin/xiaolin-03/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-03/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-03/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-03/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 1.95,
+              "text": "从这儿就开始慢慢转。",
+              "speaker": 0
+            },
+            {
+              "start": 1.95,
+              "end": 8.55,
+              "text": "哎，我们刚才说的这都是第一回哈，老王开启了他的主线任务。",
+              "speaker": 0
+            },
+            {
+              "start": 8.55,
+              "end": 10.17,
+              "text": "什么A股上市。",
+              "speaker": 0
+            },
+            {
+              "start": 10.52,
+              "end": 16.01,
+              "text": "这块我们先暂且按下不表，老王紧接着又接到了一个支线任务，啊，迎来了新的挑战。",
+              "speaker": 0
+            },
+            {
+              "start": 16.01,
+              "end": 17.27,
+              "text": "这个支线任务在哪呢？",
+              "speaker": 0
+            },
+            {
+              "start": 17.27,
+              "end": 21.35,
+              "text": "海外那几年万达不是很牛吗？",
+              "speaker": 0
+            },
+            {
+              "start": 21.35,
+              "end": 30.03,
+              "text": "在海外疯狂买买就有人粗略估算过，万达一共在海外投了250亿到300亿美元左右，大概相当于他当时总资产的20%。",
+              "speaker": 0
+            },
+            {
+              "start": 30.03,
+              "end": 34.65,
+              "text": "其实不光是万达，当时还有什么海航、复兴、安邦等等，都很喜欢在外边买。",
+              "speaker": 0
+            },
+            {
+              "start": 34.65,
+              "end": 35.85,
+              "text": "2016年上半年。",
+              "speaker": 0
+            },
+            {
+              "start": 35.87,
+              "end": 41.18,
+              "text": "中国公司在海外可查的投资额就有2158亿美元。",
+              "speaker": 0
+            },
+            {
+              "start": 41.18,
+              "end": 47.78,
+              "text": "那万达海外投资需要这么多钱，哪来的，你可别想当然就觉得啊那么大个公司肯定很有钱哎。",
+              "speaker": 0
+            },
+            {
+              "start": 47.82,
+              "end": 53.43,
+              "text": "房地产公司它本质上是一个杠杆游戏，它资产很多，但现金其实并不多。",
+              "speaker": 0
+            },
+            {
+              "start": 53.43,
+              "end": 58.11,
+              "text": "那我们刚才300亿人民币就得找人借，更何况这是几百亿美元的海外投资。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-04",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "哎，老王不用问别人了，我感兴趣，我愿意买啊。但问题是...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 652.37,
+          "end": 710.47,
+          "duration": 58.1,
+          "text": "哎，老王不用问别人了，我感兴趣，我愿意买啊。但问题是什么呢？这笔交易的金额实在是太大，会超过600亿人民币。而融创当时17年刚刚花了150亿入股了乐视no杠杆已经拉满了，一下，拿不出那么多钱，还缺大概300亿，怎么办呢？哎，这个资本运作又来了哈。你看啊这个时候万达的手上还是很有钱的，他核心的目标是要降杠杆。所以王健林就跟孙红斌开始合计了我呢可以用委托贷款的方式找个中间银行，把钱借给你一些，大概300亿。你拿着我的钱来收购我的文具城和酒店，这样你可以低价收购，我可以降杠杆怎么样？于是两边一拍即合，火速发了个公告，宣布融创以632亿元接手万达的文旅和酒店。但你以为老王就这么顺顺利利完成这个制线任务了吗？nonononono,他这个左手倒右手的委托贷款显然是有些问题。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9988,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.1291,
+          "video": "/media/xiaolin/xiaolin-04/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-04/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-04/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-04/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 3.12,
+              "text": "哎，老王不用问别人了，我感兴趣，我愿意买啊。",
+              "speaker": 0
+            },
+            {
+              "start": 3.12,
+              "end": 4.14,
+              "text": "但问题是什么呢？",
+              "speaker": 0
+            },
+            {
+              "start": 4.14,
+              "end": 7.8,
+              "text": "这笔交易的金额实在是太大，会超过600亿人民币。",
+              "speaker": 0
+            },
+            {
+              "start": 7.84,
+              "end": 15.31,
+              "text": "而融创当时17年刚刚花了150亿入股了乐视no杠杆已经拉满了，一下，拿不出那么多钱，",
+              "speaker": 0
+            },
+            {
+              "start": 15.31,
+              "end": 17.17,
+              "text": "还缺大概300亿，怎么办呢？",
+              "speaker": 0
+            },
+            {
+              "start": 17.17,
+              "end": 21.31,
+              "text": "哎，这个资本运作又来了哈。",
+              "speaker": 0
+            },
+            {
+              "start": 21.32,
+              "end": 25.97,
+              "text": "你看啊这个时候万达的手上还是很有钱的，他核心的目标是要降杠杆。",
+              "speaker": 0
+            },
+            {
+              "start": 25.97,
+              "end": 33.27,
+              "text": "所以王健林就跟孙红斌开始合计了我呢可以用委托贷款的方式找个中间银行，",
+              "speaker": 0
+            },
+            {
+              "start": 33.27,
+              "end": 35.49,
+              "text": "把钱借给你一些，大概300亿。",
+              "speaker": 0
+            },
+            {
+              "start": 35.49,
+              "end": 43.29,
+              "text": "你拿着我的钱来收购我的文具城和酒店，这样你可以低价收购，我可以降杠杆怎么样？",
+              "speaker": 0
+            },
+            {
+              "start": 43.31,
+              "end": 50.96,
+              "text": "于是两边一拍即合，火速发了个公告，宣布融创以632亿元接手万达的文旅和酒店。",
+              "speaker": 0
+            },
+            {
+              "start": 50.96,
+              "end": 54.02,
+              "text": "但你以为老王就这么顺顺利利完成这个制线任务了吗？",
+              "speaker": 0
+            },
+            {
+              "start": 54.02,
+              "end": 58.1,
+              "text": "nonononono,他这个左手倒右手的委托贷款显然是有些问题。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-05",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "同时，工作人员拿着那个打印机狂奔的把这个新打印的材料...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 786.62,
+          "end": 844.73,
+          "duration": 58.11,
+          "text": "同时，工作人员拿着那个打印机狂奔的把这个新打印的材料送到那个贵宾室里头，出来的人边走边把那些旧文件给撕的粉碎。就在这个凌乱中推迟了一个半小时之后，发布会才正式开始。大家一进场就发现嘿，这个背景板又换回来了。富丽的logo又回来了，反正最后这个收购还是按原计划进行之后，就有人问王健林说，当时发生了什么呀？老王说哎，哪有什么摔杯子，大家不要多想，我们三个在里边。谈笑风生呢主要是因为吧今天这个合同太多了，太厚了，所以工作人员忙着找打印机呢，反正就是发生了这么个小插曲。但也不管他们之间到底真发生了什么争执。还是真的遇到了一个特别特别不好用的打印机，最后这个协议总算是签订下来。文旅项目438亿卖给融创，酒店部分199亿卖给富利，总算卖完了这么一大笔。万达成功回笼资金杠杠杠，又陆续出手了海外的资产。这一系列壮士断腕确实效果显著。万达商馆在15个月内减了2000多亿的负债。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9917,
+          "maxInternalGap": 0.23,
+          "semanticEnd": true,
+          "score": 1.12727,
+          "video": "/media/xiaolin/xiaolin-05/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-05/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-05/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-05/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 7.41,
+              "text": "同时，工作人员拿着那个打印机狂奔的把这个新打印的材料送到那个贵宾室里头，出来的人边走边把那些旧文件给撕的粉碎。",
+              "speaker": 0
+            },
+            {
+              "start": 7.41,
+              "end": 11.79,
+              "text": "就在这个凌乱中推迟了一个半小时之后，发布会才正式开始。",
+              "speaker": 0
+            },
+            {
+              "start": 11.79,
+              "end": 14.73,
+              "text": "大家一进场就发现嘿，这个背景板又换回来了。",
+              "speaker": 0
+            },
+            {
+              "start": 14.75,
+              "end": 21.74,
+              "text": "富丽的logo又回来了，反正最后这个收购还是按原计划进行之后，就有人问王健林说，当时发生了什么呀？",
+              "speaker": 0
+            },
+            {
+              "start": 21.74,
+              "end": 26.06,
+              "text": "老王说哎，哪有什么摔杯子，大家不要多想，我们三个在里边。",
+              "speaker": 0
+            },
+            {
+              "start": 26.12,
+              "end": 33.95,
+              "text": "谈笑风生呢主要是因为吧今天这个合同太多了，太厚了，所以工作人员忙着找打印机呢，反正就是发生了这么个小插曲。",
+              "speaker": 0
+            },
+            {
+              "start": 33.95,
+              "end": 36.29,
+              "text": "但也不管他们之间到底真发生了什么争执。",
+              "speaker": 0
+            },
+            {
+              "start": 36.52,
+              "end": 42.55,
+              "text": "还是真的遇到了一个特别特别不好用的打印机，最后这个协议总算是签订下来。",
+              "speaker": 0
+            },
+            {
+              "start": 42.55,
+              "end": 49.03,
+              "text": "文旅项目438亿卖给融创，酒店部分199亿卖给富利，总算卖完了这么一大笔。",
+              "speaker": 0
+            },
+            {
+              "start": 49.2,
+              "end": 52.71,
+              "text": "万达成功回笼资金杠杠杠，又陆续出手了海外的资产。",
+              "speaker": 0
+            },
+            {
+              "start": 52.71,
+              "end": 55.17,
+              "text": "这一系列壮士断腕确实效果显著。",
+              "speaker": 0
+            },
+            {
+              "start": 55.17,
+              "end": 58.11,
+              "text": "万达商馆在15个月内减了2000多亿的负债。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-06",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "想要在18年之前A股上市，这个前景可以说是乌云密布，...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 878.27,
+          "end": 936.27,
+          "duration": 58.0,
+          "text": "想要在18年之前A股上市，这个前景可以说是乌云密布，怎么办呢老王就又开始他的资本操作了，这次操作叫什么呢？滚哎，我可没骂人哈，这个其实是华尔街非常爱用的一个词儿，roll就是借新债还旧债，把原有的贷款往后滚。2018年1月，腾讯联合苏宁融创京东一起给万达商业投资了340个亿，接盘了之前投资人手上那14%的股份。而这个合作据说也是有追赌的。上市时间从2018年也推迟到了2023年的10月31日，你要没上成功之后，老王还得用更多的现金回购。说白了就相当于老王花了不少利息给自己打了个续命针，又买了5年的时间，要冲击上市。这时候老王虽然被磨掉了一些锐气，但依然还是很有信心的。他在万达30周年年会上直接就谈到了上市的事儿。他说，湿金子总会发光的，好饭不怕碗好。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9986,
+          "maxInternalGap": 0.07,
+          "semanticEnd": true,
+          "score": 1.12966,
+          "video": "/media/xiaolin/xiaolin-06/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-06/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-06/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-06/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 8.15,
+              "text": "想要在18年之前A股上市，这个前景可以说是乌云密布，怎么办呢老王就又开始他的资本操作了，",
+              "speaker": 0
+            },
+            {
+              "start": 8.15,
+              "end": 9.47,
+              "text": "这次操作叫什么呢？",
+              "speaker": 0
+            },
+            {
+              "start": 9.47,
+              "end": 16.37,
+              "text": "滚哎，我可没骂人哈，这个其实是华尔街非常爱用的一个词儿，roll就是借新债还旧债，",
+              "speaker": 0
+            },
+            {
+              "start": 16.37,
+              "end": 18.77,
+              "text": "把原有的贷款往后滚。",
+              "speaker": 0
+            },
+            {
+              "start": 18.84,
+              "end": 27.57,
+              "text": "2018年1月，腾讯联合苏宁融创京东一起给万达商业投资了340个亿，接盘了之前投资人手上那14%的股份。",
+              "speaker": 0
+            },
+            {
+              "start": 27.57,
+              "end": 29.91,
+              "text": "而这个合作据说也是有追赌的。",
+              "speaker": 0
+            },
+            {
+              "start": 29.92,
+              "end": 37.15,
+              "text": "上市时间从2018年也推迟到了2023年的10月31日，你要没上成功之后，老王还得用更多的现金回购。",
+              "speaker": 0
+            },
+            {
+              "start": 37.15,
+              "end": 44.41,
+              "text": "说白了就相当于老王花了不少利息给自己打了个续命针，又买了5年的时间，要冲击上市。",
+              "speaker": 0
+            },
+            {
+              "start": 44.41,
+              "end": 48.28,
+              "text": "这时候老王虽然被磨掉了一些锐气，但依然还是很有信心的。",
+              "speaker": 0
+            },
+            {
+              "start": 48.28,
+              "end": 51.58,
+              "text": "他在万达30周年年会上直接就谈到了上市的事儿。",
+              "speaker": 0
+            },
+            {
+              "start": 51.58,
+              "end": 58.0,
+              "text": "他说，湿金子总会发光的，好饭不怕碗好。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-07",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "怎么还要拉投资人呀，直接上市不行吗？哎，还真不行。你...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 1049.81,
+          "end": 1107.99,
+          "duration": 58.18,
+          "text": "怎么还要拉投资人呀，直接上市不行吗？哎，还真不行。你看这时候啊这个珠海万达，它是万达集团全资控股，他还需要一些大资本大玩家的背书，而且呢也能给公司的估值做一个参考。而作为投资人那边呢，他其实也很舒服。上市临门一脚之前入股，只要能上市成功，大概率会赚移给大的。所以老王很轻松就拉了22个投资人融了380亿元，持有珠海万达大概21%的股份。这名单里哈也是各顶各都是大佬中信、蚂蚁、腾讯、碧桂园、郑玉桐家族等。这个背书就很强了，而这个名单里头还有一个非常非常关键的公司，也是这里出现最多的叫泰蒙。大家留意一下啊，这一会儿是个关键现手，但这笔融资呢还是有对赌，你还是得在23年底之前完成上市，不然老王又得回购。所以你看这时候万达身上就背了两个大队赌，一个是腾讯牵头的，一个是泰蒙牵头的，核心任务都是要在2023年下半年之前完成上市。老王也是信心满满啊。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9993,
+          "maxInternalGap": 0.04,
+          "semanticEnd": true,
+          "score": 1.12875,
+          "video": "/media/xiaolin/xiaolin-07/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-07/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-07/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-07/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 2.25,
+              "text": "怎么还要拉投资人呀，直接上市不行吗？",
+              "speaker": 0
+            },
+            {
+              "start": 2.25,
+              "end": 3.45,
+              "text": "哎，还真不行。",
+              "speaker": 0
+            },
+            {
+              "start": 3.45,
+              "end": 11.91,
+              "text": "你看这时候啊这个珠海万达，它是万达集团全资控股，他还需要一些大资本大玩家的背书，而且呢也能给公司的估值做一个参考。",
+              "speaker": 0
+            },
+            {
+              "start": 11.91,
+              "end": 14.49,
+              "text": "而作为投资人那边呢，他其实也很舒服。",
+              "speaker": 0
+            },
+            {
+              "start": 14.49,
+              "end": 18.57,
+              "text": "上市临门一脚之前入股，只要能上市成功，大概率会赚移给大的。",
+              "speaker": 0
+            },
+            {
+              "start": 18.57,
+              "end": 24.57,
+              "text": "所以老王很轻松就拉了22个投资人融了380亿元，持有珠海万达大概21%的股份。",
+              "speaker": 0
+            },
+            {
+              "start": 24.57,
+              "end": 29.97,
+              "text": "这名单里哈也是各顶各都是大佬中信、蚂蚁、腾讯、碧桂园、郑玉桐家族等。",
+              "speaker": 0
+            },
+            {
+              "start": 30.01,
+              "end": 36.82,
+              "text": "这个背书就很强了，而这个名单里头还有一个非常非常关键的公司，也是这里出现最多的叫泰蒙。",
+              "speaker": 0
+            },
+            {
+              "start": 36.82,
+              "end": 44.08,
+              "text": "大家留意一下啊，这一会儿是个关键现手，但这笔融资呢还是有对赌，你还是得在23年底之前完成上市，",
+              "speaker": 0
+            },
+            {
+              "start": 44.08,
+              "end": 45.34,
+              "text": "不然老王又得回购。",
+              "speaker": 0
+            },
+            {
+              "start": 45.34,
+              "end": 56.32,
+              "text": "所以你看这时候万达身上就背了两个大队赌，一个是腾讯牵头的，一个是泰蒙牵头的，核心任务都是要在2023年下半年之前完成上市。",
+              "speaker": 0
+            },
+            {
+              "start": 56.32,
+              "end": 58.18,
+              "text": "老王也是信心满满啊。",
+              "speaker": 0
+            }
+          ]
+        },
+        {
+          "id": "xiaolin-08",
+          "authorId": "xiaolin",
+          "authorName": "小lin说",
+          "title": "虽然现在财务情况不怎么样，但业务还是很漂亮的。哎，这...",
+          "sourceId": "117070306024746",
+          "sourceTitle": "王健林现在怎么样了? 万达什么情况?",
+          "sourceUrl": "https://www.bilibili.com/video/av117070306024746",
+          "start": 1278.66,
+          "end": 1336.35,
+          "duration": 57.69,
+          "text": "虽然现在财务情况不怎么样，但业务还是很漂亮的。哎，这个就很符合单伟健的投资审美。这会儿他看老王实在是撑不下去了，就去跟他谈这样哈钱呢你不用担心，咱们这边可是号称亚洲小黑石给你弄600个亿，分分装的事儿，那你条件肯定不低啊，你得给我和我的朋友们，珠海万达60%的股份就是控制权你得给我。这些书你听着可能没概念哈，泰蒙这就属于狮子打开口，但老王爷没选择了，这时候只有泰蒙愿意伸出援手。他也只能接受他们还进行了一套资本操作。最终，大连万达对珠海万达的股份从79%降到了40%。而泰蒙拉来了中信资本irris，还有中东两基金，持有60%。老王忍痛把万达集团里最肥的肉。攻受送人啊，说到这儿，我先说明一下啊，有些人可能觉得万达是不是跟恒大差不多万达呢还远远没到资不抵债的程度，它最主要的资产还是商业地产。",
+          "dominantSpeaker": "0",
+          "speakerRatio": 1.0,
+          "speechCoverage": 0.9974,
+          "maxInternalGap": 0.07,
+          "semanticEnd": true,
+          "score": 1.12749,
+          "video": "/media/xiaolin/xiaolin-08/video.mp4",
+          "audio": "/media/xiaolin/xiaolin-08/audio.mp3",
+          "subtitle": "/media/xiaolin/xiaolin-08/transcript.srt",
+          "poster": "/media/xiaolin/xiaolin-08/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 3.48,
+              "text": "虽然现在财务情况不怎么样，但业务还是很漂亮的。",
+              "speaker": 0
+            },
+            {
+              "start": 3.48,
+              "end": 6.06,
+              "text": "哎，这个就很符合单伟健的投资审美。",
+              "speaker": 0
+            },
+            {
+              "start": 6.06,
+              "end": 14.95,
+              "text": "这会儿他看老王实在是撑不下去了，就去跟他谈这样哈钱呢你不用担心，咱们这边可是号称亚洲小黑石给你弄600个亿，",
+              "speaker": 0
+            },
+            {
+              "start": 14.95,
+              "end": 23.71,
+              "text": "分分装的事儿，那你条件肯定不低啊，你得给我和我的朋友们，珠海万达60%的股份就是控制权你得给我。",
+              "speaker": 0
+            },
+            {
+              "start": 23.78,
+              "end": 30.65,
+              "text": "这些书你听着可能没概念哈，泰蒙这就属于狮子打开口，但老王爷没选择了，这时候只有泰蒙愿意伸出援手。",
+              "speaker": 0
+            },
+            {
+              "start": 30.7,
+              "end": 33.19,
+              "text": "他也只能接受他们还进行了一套资本操作。",
+              "speaker": 0
+            },
+            {
+              "start": 33.19,
+              "end": 37.57,
+              "text": "最终，大连万达对珠海万达的股份从79%降到了40%。",
+              "speaker": 0
+            },
+            {
+              "start": 37.57,
+              "end": 42.13,
+              "text": "而泰蒙拉来了中信资本irris，还有中东两基金，持有60%。",
+              "speaker": 0
+            },
+            {
+              "start": 42.13,
+              "end": 45.07,
+              "text": "老王忍痛把万达集团里最肥的肉。",
+              "speaker": 0
+            },
+            {
+              "start": 45.1,
+              "end": 55.65,
+              "text": "攻受送人啊，说到这儿，我先说明一下啊，有些人可能觉得万达是不是跟恒大差不多万达呢还远远没到资不抵债的程度，",
+              "speaker": 0
+            },
+            {
+              "start": 55.65,
+              "end": 57.69,
+              "text": "它最主要的资产还是商业地产。",
+              "speaker": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english-test",
+      "name": "BBC Learning English",
+      "avatar": "/avatars/english-test.jpg",
+      "clips": [
+        {
+          "id": "english-test-01",
+          "title": "When is it OK to complain?",
+          "sourceTitle": "Real Easy English · When is it OK to complain?",
+          "duration": 361.09,
+          "video": "/media/english-test/video.mp4",
+          "audio": "/media/english-test/audio.mp3",
+          "subtitle": "/media/english-test/transcript.srt",
+          "poster": "/media/english-test/poster.jpg",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 1.24,
+              "text": "Hi, Neil. How are you doing?",
+              "speaker": 0
+            },
+            {
+              "start": 1.6,
+              "end": 3.34,
+              "text": "I'm very well. Thank you, Georgie. How are you?",
+              "speaker": 0
+            },
+            {
+              "start": 3.6,
+              "end": 4.86,
+              "text": "I'm very well too.",
+              "speaker": 0
+            },
+            {
+              "start": 5.74,
+              "end": 8.66,
+              "text": "Neil, in this episode of Real Easy English,",
+              "speaker": 0
+            },
+            {
+              "start": 9.0,
+              "end": 10.98,
+              "text": "we're talking about complaining.",
+              "speaker": 0
+            },
+            {
+              "start": 11.74,
+              "end": 14.62,
+              "text": "That is when you say something is wrong",
+              "speaker": 0
+            },
+            {
+              "start": 14.62,
+              "end": 17.56,
+              "text": "or you have a problem and you want to tell someone about it.",
+              "speaker": 0
+            },
+            {
+              "start": 17.7,
+              "end": 20.3,
+              "text": "Yes, and people should remember that they can get",
+              "speaker": 0
+            },
+            {
+              "start": 20.3,
+              "end": 25.28,
+              "text": "a free worksheet for this podcast at bbclearningenglish.com.",
+              "speaker": 0
+            },
+            {
+              "start": 31.9,
+              "end": 35.88,
+              "text": "I know that you have a recent experience with this, don't you?",
+              "speaker": 0
+            },
+            {
+              "start": 36.14,
+              "end": 41.44,
+              "text": "Ah, yes. Yeah. I booked somewhere to stay on a trip",
+              "speaker": 0
+            },
+            {
+              "start": 41.44,
+              "end": 43.58,
+              "text": "and the reviews were all really good.",
+              "speaker": 0
+            },
+            {
+              "start": 44.1,
+              "end": 46.98,
+              "text": "And then when I checked again, the reviews were all really bad.",
+              "speaker": 0
+            },
+            {
+              "start": 47.48,
+              "end": 48.94,
+              "text": "Oh, no. What were they about?",
+              "speaker": 0
+            },
+            {
+              "start": 49.7,
+              "end": 52.18,
+              "text": "They said the place was dirty and things were broken.",
+              "speaker": 0
+            },
+            {
+              "start": 52.62,
+              "end": 56.42,
+              "text": "Oh, no. What did you do? Have you been yet?",
+              "speaker": 0
+            },
+            {
+              "start": 56.68,
+              "end": 58.5,
+              "text": "Not yet. Oh. No.",
+              "speaker": 0
+            },
+            {
+              "start": 59.1,
+              "end": 60.08,
+              "text": "So what did you do?",
+              "speaker": 0
+            },
+            {
+              "start": 60.56,
+              "end": 64.62,
+              "text": "I wrote to them. I sent them an email to say, I was worried.",
+              "speaker": 0
+            },
+            {
+              "start": 66.0,
+              "end": 71.44,
+              "text": "And I asked them to assure me that the place would be clean",
+              "speaker": 0
+            },
+            {
+              "start": 71.44,
+              "end": 73.14,
+              "text": "and working properly.",
+              "speaker": 0
+            },
+            {
+              "start": 73.14,
+              "end": 75.48,
+              "text": "OK. And did you get a response?",
+              "speaker": 0
+            },
+            {
+              "start": 76.04,
+              "end": 79.86,
+              "text": "I did. But I really hated the whole process.",
+              "speaker": 0
+            },
+            {
+              "start": 80.24,
+              "end": 81.86,
+              "text": "Oh, no. Why?",
+              "speaker": 0
+            },
+            {
+              "start": 82.26,
+              "end": 83.68,
+              "text": "Because I don't like complaining.",
+              "speaker": 0
+            },
+            {
+              "start": 84.14,
+              "end": 86.7,
+              "text": "No, neither do I. I'm not very good at it.",
+              "speaker": 0
+            },
+            {
+              "start": 86.7,
+              "end": 90.36,
+              "text": "I don't like to make people feel bad, even if there is a problem",
+              "speaker": 0
+            },
+            {
+              "start": 90.36,
+              "end": 94.94,
+              "text": "and I've paid for something, and it should be a certain way,",
+              "speaker": 0
+            },
+            {
+              "start": 94.94,
+              "end": 95.74,
+              "text": "but it's not.",
+              "speaker": 0
+            },
+            {
+              "start": 96.18,
+              "end": 99.36,
+              "text": "And I'm entitled to complain.",
+              "speaker": 0
+            },
+            {
+              "start": 99.78,
+              "end": 101.26,
+              "text": "I still don't like it.",
+              "speaker": 0
+            },
+            {
+              "start": 101.66,
+              "end": 104.62,
+              "text": "I just feel, yeah, I feel embarrassed about it.",
+              "speaker": 0
+            },
+            {
+              "start": 104.92,
+              "end": 107.08,
+              "text": "Yeah. It's not an easy thing to do.",
+              "speaker": 0
+            },
+            {
+              "start": 107.08,
+              "end": 111.54,
+              "text": "No. I think I'm getting better with age, I think.",
+              "speaker": 0
+            },
+            {
+              "start": 111.72,
+              "end": 112.82,
+              "text": "I'm getting braver.",
+              "speaker": 0
+            },
+            {
+              "start": 113.58,
+              "end": 119.62,
+              "text": "I had an experience a couple of weeks ago because I am subscribed",
+              "speaker": 0
+            },
+            {
+              "start": 119.62,
+              "end": 122.26,
+              "text": "to a food delivery service.",
+              "speaker": 0
+            },
+            {
+              "start": 122.58,
+              "end": 124.84,
+              "text": "I get a box of food every week.",
+              "speaker": 0
+            },
+            {
+              "start": 124.84,
+              "end": 129.82,
+              "text": "And the last two weeks, the delivery has been very late.",
+              "speaker": 0
+            },
+            {
+              "start": 129.82,
+              "end": 131.52,
+              "text": "And I'm not happy about it.",
+              "speaker": 0
+            },
+            {
+              "start": 132.56,
+              "end": 138.48,
+              "text": "And so I found the courage, found the bravery to call up the customer",
+              "speaker": 0
+            },
+            {
+              "start": 138.48,
+              "end": 140.74,
+              "text": "service and complain.",
+              "speaker": 0
+            },
+            {
+              "start": 141.4,
+              "end": 147.22,
+              "text": "And I was very strong and I asked for money, a discount on the next order.",
+              "speaker": 0
+            },
+            {
+              "start": 147.56,
+              "end": 150.7,
+              "text": "Wow. That sounds very well done.",
+              "speaker": 0
+            },
+            {
+              "start": 151.12,
+              "end": 157.6,
+              "text": "I think when you do complain, sometimes you feel bad about it.",
+              "speaker": 0
+            },
+            {
+              "start": 157.66,
+              "end": 163.8,
+              "text": "But if it works out well, like with you, and hopefully with my accommodation,",
+              "speaker": 0
+            },
+            {
+              "start": 164.3,
+              "end": 170.62,
+              "text": "afterwards you feel really good because you did what was right.",
+              "speaker": 0
+            },
+            {
+              "start": 171.12,
+              "end": 176.06,
+              "text": "Yeah. If you've paid for something, I think you can expect it to be what you",
+              "speaker": 0
+            },
+            {
+              "start": 176.06,
+              "end": 180.82,
+              "text": "paid for. So if it isn't, I think you're allowed to complain.",
+              "speaker": 0
+            },
+            {
+              "start": 181.24,
+              "end": 183.32,
+              "text": "But there is a nice way to do it, isn't there?",
+              "speaker": 0
+            },
+            {
+              "start": 183.68,
+              "end": 186.56,
+              "text": "There is. Yeah. Be polite. Don't be personal.",
+              "speaker": 0
+            },
+            {
+              "start": 187.72,
+              "end": 192.62,
+              "text": "It's not often the person you are complaining to is often not the person",
+              "speaker": 0
+            },
+            {
+              "start": 192.62,
+              "end": 195.74,
+              "text": "responsible for the mistake or whatever.",
+              "speaker": 0
+            },
+            {
+              "start": 195.74,
+              "end": 200.2,
+              "text": "Yeah. So I think if you are respectful and polite,",
+              "speaker": 0
+            },
+            {
+              "start": 200.42,
+              "end": 202.08,
+              "text": "but you know what you want.",
+              "speaker": 0
+            },
+            {
+              "start": 202.62,
+              "end": 206.84,
+              "text": "So Neil, you and I find complaining quite stressful.",
+              "speaker": 0
+            },
+            {
+              "start": 206.88,
+              "end": 211.78,
+              "text": "So we don't do it very often. But do you know anyone that complains all the time?",
+              "speaker": 0
+            },
+            {
+              "start": 212.28,
+              "end": 218.74,
+              "text": "Oh, yeah. Some people seem to love complaining and they complain about things",
+              "speaker": 0
+            },
+            {
+              "start": 218.74,
+              "end": 220.98,
+              "text": "that I would not complain about.",
+              "speaker": 0
+            },
+            {
+              "start": 221.62,
+              "end": 226.32,
+              "text": "Yeah. I've been in restaurants with groups of people where there's been someone",
+              "speaker": 0
+            },
+            {
+              "start": 226.32,
+              "end": 229.98,
+              "text": "that has complained about something that is really embarrassing.",
+              "speaker": 0
+            },
+            {
+              "start": 229.98,
+              "end": 233.2,
+              "text": "And you just think this is not a real big issue.",
+              "speaker": 0
+            },
+            {
+              "start": 233.76,
+              "end": 235.16,
+              "text": "Has that ever happened to you?",
+              "speaker": 0
+            },
+            {
+              "start": 235.52,
+              "end": 240.14,
+              "text": "Yeah. The same thing. I've been having a meal with some friends.",
+              "speaker": 0
+            },
+            {
+              "start": 240.58,
+              "end": 244.26,
+              "text": "One of the people I was with, he used to be a waiter.",
+              "speaker": 0
+            },
+            {
+              "start": 244.88,
+              "end": 249.66,
+              "text": "And he had a very clear idea about how waiters should behave.",
+              "speaker": 0
+            },
+            {
+              "start": 249.66,
+              "end": 253.78,
+              "text": "And he didn't like something and he complained about it.",
+              "speaker": 0
+            },
+            {
+              "start": 253.96,
+              "end": 259.2,
+              "text": "And nobody else really understood what he was talking about or why he was complaining.",
+              "speaker": 0
+            },
+            {
+              "start": 259.48,
+              "end": 260.58,
+              "text": "And it was embarrassing.",
+              "speaker": 0
+            },
+            {
+              "start": 261.06,
+              "end": 264.66,
+              "text": "Did he complain to the waiter? Yeah. But so everyone could hear.",
+              "speaker": 0
+            },
+            {
+              "start": 265.0,
+              "end": 267.92,
+              "text": "Oh, no. And how did the waiter respond?",
+              "speaker": 0
+            },
+            {
+              "start": 269.24,
+              "end": 271.08,
+              "text": "I don't think he liked it very much.",
+              "speaker": 0
+            },
+            {
+              "start": 271.36,
+              "end": 274.16,
+              "text": "Well, I used to work in restaurants.",
+              "speaker": 0
+            },
+            {
+              "start": 274.46,
+              "end": 277.88,
+              "text": "I've also worked in customer service. But in restaurants,",
+              "speaker": 0
+            },
+            {
+              "start": 278.64,
+              "end": 283.92,
+              "text": "if people have a reason to complain, of course, I'm going to try to fix it.",
+              "speaker": 0
+            },
+            {
+              "start": 284.68,
+              "end": 287.96,
+              "text": "But it also depends how they say it.",
+              "speaker": 0
+            },
+            {
+              "start": 288.74,
+              "end": 294.72,
+              "text": "If they're very rude, as a waitress, you don't really want to help them.",
+              "speaker": 0
+            },
+            {
+              "start": 295.34,
+              "end": 298.52,
+              "text": "But if they're polite and they have a reason to complain, of course,",
+              "speaker": 0
+            },
+            {
+              "start": 298.92,
+              "end": 301.06,
+              "text": "I'll try to fix their problems.",
+              "speaker": 0
+            },
+            {
+              "start": 308.16,
+              "end": 312.48,
+              "text": "Okay, Neil, it's time to recap the vocabulary we used in this conversation.",
+              "speaker": 0
+            },
+            {
+              "start": 313.02,
+              "end": 318.22,
+              "text": "We used the verb complain, which is when you say something is wrong or not good enough.",
+              "speaker": 0
+            },
+            {
+              "start": 318.56,
+              "end": 320.56,
+              "text": "And we also heard the noun complaint.",
+              "speaker": 0
+            },
+            {
+              "start": 321.14,
+              "end": 323.36,
+              "text": "We did. And you make a complaint, don't you?",
+              "speaker": 0
+            },
+            {
+              "start": 323.7,
+              "end": 328.7,
+              "text": "Yes. We also heard discount, which is when you don't pay the full price of something.",
+              "speaker": 0
+            },
+            {
+              "start": 329.26,
+              "end": 332.88,
+              "text": "You also said that people are entitled to something,",
+              "speaker": 0
+            },
+            {
+              "start": 332.88,
+              "end": 337.72,
+              "text": "and it means that that is something they should get if they paid for it.",
+              "speaker": 0
+            },
+            {
+              "start": 338.2,
+              "end": 343.94,
+              "text": "And Neil, you said you were worried about the reviews of the accommodation for your trip,",
+              "speaker": 0
+            },
+            {
+              "start": 344.34,
+              "end": 347.48,
+              "text": "which is when people write what they think about the place.",
+              "speaker": 0
+            },
+            {
+              "start": 348.28,
+              "end": 349.94,
+              "text": "That's it then, Georgie. Isn't it?",
+              "speaker": 0
+            },
+            {
+              "start": 350.54,
+              "end": 353.26,
+              "text": "But join us again another time for more Real Easy English.",
+              "speaker": 0
+            },
+            {
+              "start": 353.64,
+              "end": 356.6,
+              "text": "Don't forget there's a free worksheet on the website. Goodbye for now.",
+              "speaker": 0
+            },
+            {
+              "start": 356.88,
+              "end": 357.04,
+              "text": "Goodbye.",
+              "speaker": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

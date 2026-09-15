@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+.pnpm-store/
+.venv/
+
+# generated release and local runtime data
+release/
+.launcher-build/
+apps/speaking-practice/.launcher/
+apps/speaking-practice/.astro/
+apps/speaking-practice/dist/
+apps/speaking-practice/work/
+apps/speaking-practice/user-data/
+apps/speaking-practice/models/
+apps/speaking-practice/runtime/
+apps/speaking-practice/tools/
+apps/speaking-practice/__pycache__/
+apps/sensevoice/__pycache__/
+apps/sensevoice/.venv/
+**/__pycache__/
+*.py[cod]

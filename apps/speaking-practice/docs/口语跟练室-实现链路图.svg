@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="diagram-title diagram-desc">
+  <title id="diagram-title">口语跟练室实现链路图</title>
+  <desc id="diagram-desc">从获取视频、提取音频、生成带时间戳的字幕，到由 Python 后端串联并由 Web 前端呈现跟练功能。</desc>
+  <style>
+    .eyebrow { fill: #76766f; font: 500 20px "Microsoft YaHei", "Noto Sans SC", sans-serif; letter-spacing: 4px; }
+    .heading { fill: #1e1e1b; font: 600 58px "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+    .subheading { fill: #76766f; font: 400 24px "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+    .step { fill: #e36d4f; font: 600 22px "DM Mono", Consolas, monospace; letter-spacing: 2px; }
+    .tool { fill: #1e1e1b; font: 600 28px "DM Mono", Consolas, monospace; }
+    .title { fill: #1e1e1b; font: 600 34px "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+    .body { fill: #55554f; font: 400 22px "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+    .small { fill: #76766f; font: 400 19px "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+    .card { fill: #ffffff; stroke: #d8d6cf; stroke-width: 2; }
+    .divider { stroke: #e8e6df; stroke-width: 2; }
+    .arrow { stroke: #e36d4f; stroke-width: 3; fill: none; }
+    .footer-label { fill: #e36d4f; font: 600 20px "Microsoft YaHei", "Noto Sans SC", sans-serif; letter-spacing: 3px; }
+    .footer-copy { fill: #1e1e1b; font: 500 30px "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+  </style>
+
+  <rect width="1600" height="900" fill="#fafaf7" />
+
+  <text x="80" y="90" class="eyebrow">SPEAKING ROOM / HOW IT WORKS</text>
+  <text x="80" y="160" class="heading">口语跟练室，怎么把视频变成练习？</text>
+  <text x="80" y="205" class="subheading">从一段视频开始，到可以逐句跟练，中间主要经过四步。</text>
+
+  <g aria-label="第一步：使用 yt-dlp 获取视频">
+    <rect x="80" y="280" width="300" height="300" rx="20" class="card" />
+    <text x="112" y="326" class="step">01</text>
+    <text x="112" y="382" class="tool">yt-dlp</text>
+    <text x="112" y="430" class="title">获取视频</text>
+    <line x1="112" y1="462" x2="348" y2="462" class="divider" />
+    <text x="112" y="510" class="body">视频网址 → 视频文件</text>
+    <text x="112" y="548" class="small">本地文件可以直接读取</text>
+  </g>
+
+  <path d="M396 430 H438" class="arrow" />
+  <path d="M438 430 l-12 -8 v16 z" fill="#e36d4f" />
+
+  <g aria-label="第二步：使用 FFmpeg 转换格式并提取音频">
+    <rect x="460" y="280" width="300" height="300" rx="20" class="card" />
+    <text x="492" y="326" class="step">02</text>
+    <text x="492" y="382" class="tool">FFmpeg</text>
+    <text x="492" y="430" class="title">整理音视频</text>
+    <line x1="492" y1="462" x2="728" y2="462" class="divider" />
+    <text x="492" y="510" class="body">统一视频格式</text>
+    <text x="492" y="548" class="body">同时提取音频</text>
+  </g>
+
+  <path d="M776 430 H818" class="arrow" />
+  <path d="M818 430 l-12 -8 v16 z" fill="#e36d4f" />
+
+  <g aria-label="第三步：使用 FunASR 和 SenseVoiceSmall 生成带时间戳的字幕">
+    <rect x="840" y="280" width="300" height="300" rx="20" class="card" />
+    <text x="872" y="326" class="step">03</text>
+    <text x="872" y="377" class="tool" font-size="24">FunASR +</text>
+    <text x="872" y="408" class="tool" font-size="24">SenseVoiceSmall</text>
+    <text x="872" y="455" class="title">生成字幕</text>
+    <line x1="872" y1="482" x2="1108" y2="482" class="divider" />
+    <text x="872" y="530" class="body">音频 → 文字</text>
+    <text x="872" y="568" class="body">记录每个词的时间</text>
+  </g>
+
+  <path d="M1156 430 H1198" class="arrow" />
+  <path d="M1198 430 l-12 -8 v16 z" fill="#e36d4f" />
+
+  <g aria-label="第四步：Python 后端串联流程，Web 前端呈现功能">
+    <rect x="1220" y="280" width="300" height="300" rx="20" class="card" />
+    <text x="1252" y="326" class="step">04</text>
+    <text x="1252" y="382" class="tool">Python</text>
+    <text x="1252" y="430" class="title">后端串流程</text>
+    <line x1="1252" y1="462" x2="1488" y2="462" class="divider" />
+    <text x="1252" y="510" class="body">Web 前端来呈现</text>
+    <text x="1252" y="548" class="small">视频 · 字幕 · 录音 · 对比 · 评分</text>
+  </g>
+
+  <rect x="80" y="680" width="1440" height="120" rx="18" fill="#f1eee8" />
+  <text x="120" y="735" class="footer-label">一句话讲解</text>
+  <text x="120" y="777" class="footer-copy">视频进来 → 音频提出来 → 字幕带上时间 → 跟练功能跑起来</text>
+</svg>

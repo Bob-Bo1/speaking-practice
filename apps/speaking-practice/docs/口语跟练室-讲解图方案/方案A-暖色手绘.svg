@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">口语跟练室实现链路，暖色手绘方案</title>
+  <desc id="desc">用一条手绘感的流程线连接获取视频、提取音频、生成字幕和完成跟练四个步骤，每一步配有对应图标。</desc>
+  <style>
+    .eyebrow { fill:#7c8178; font:500 20px "Microsoft YaHei","Noto Sans SC",sans-serif; letter-spacing:4px; }
+    .heading { fill:#24383b; font:600 60px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .subtitle { fill:#6c7876; font:400 24px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .number { fill:#e87554; font:600 21px "DM Mono",Consolas,monospace; letter-spacing:2px; }
+    .tool { fill:#24383b; font:600 23px "DM Mono",Consolas,monospace; }
+    .label { fill:#24383b; font:600 31px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .copy { fill:#6c7876; font:400 21px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .line { fill:none; stroke:#e87554; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; }
+    .ink { fill:none; stroke:#24383b; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; }
+    .soft-ink { fill:none; stroke:#6c7876; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+  </style>
+  <rect width="1600" height="900" fill="#fcf8f1"/>
+
+  <text x="88" y="90" class="eyebrow">口语跟练室 / 01</text>
+  <text x="88" y="165" class="heading">一段视频，怎么变成一次练习？</text>
+  <text x="92" y="211" class="subtitle">从素材进来，到你开口跟练，中间只经过四步。</text>
+
+  <path d="M145 456 C265 390 330 500 438 454 C555 405 642 402 742 454 C845 507 914 503 1028 454 C1142 405 1245 405 1450 456" class="line"/>
+  <path d="M145 456 l18 -13 M145 456 l19 8 M1450 456 l-20 -13 M1450 456 l-20 12" class="line" stroke-width="4"/>
+
+  <g transform="translate(220 445)">
+    <circle r="94" fill="#f7d8c9"/>
+    <path d="M-48 -31 h73 a12 12 0 0 1 12 12 v42 a12 12 0 0 1-12 12 h-73 a12 12 0 0 1-12-12 v-42 a12 12 0 0 1 12-12z" fill="#fffaf3" stroke="#24383b" stroke-width="5"/>
+    <path d="M37 -18 l30 -17 v70 l-30 -17z" fill="#f3c66b" stroke="#24383b" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M-12 -17 l31 20 -31 20z" fill="#e87554"/>
+    <path d="M-76 -61 l7 14 M-84 -54 l15 -5 M76 48 l9 12 M83 42 l13 4" class="soft-ink"/>
+  </g>
+  <text x="145" y="602" class="number">01 / yt-dlp</text>
+  <text x="145" y="646" class="label">获取视频</text>
+  <text x="145" y="684" class="copy">网址或本地文件</text>
+
+  <g transform="translate(600 445)">
+    <circle r="94" fill="#dce9e5"/>
+    <path d="M-55 -20 h25 l27 -24 v88 l-27 -24 h-25z" fill="#fffaf3" stroke="#24383b" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M18 -25 C47 -12 47 31 18 44 M38 -44 C82 -20 82 40 38 64" class="ink"/>
+    <path d="M-83 -57 l13 7 M-91 -43 l15 -1 M77 61 l12 6" class="soft-ink"/>
+  </g>
+  <text x="520" y="602" class="number">02 / FFmpeg</text>
+  <text x="520" y="646" class="label">提取音频</text>
+  <text x="520" y="684" class="copy">统一格式，拿到声音</text>
+
+  <g transform="translate(990 445)">
+    <circle r="94" fill="#f8e6af"/>
+    <path d="M-54 -45 h84 a13 13 0 0 1 13 13 v55 a13 13 0 0 1-13 13 h-84 a13 13 0 0 1-13-13 v-55 a13 13 0 0 1 13-13z" fill="#fffaf3" stroke="#24383b" stroke-width="5"/>
+    <path d="M-40 -18 h50 M-40 5 h66 M-40 28 h34" class="soft-ink"/>
+    <circle cx="49" cy="44" r="27" fill="#e87554" stroke="#24383b" stroke-width="5"/>
+    <path d="M49 30 v16 l10 7" class="ink" stroke="#fffaf3"/>
+    <path d="M-82 -74 l12 8 M-88 -60 l15 -2 M77 -65 l13 -8" class="soft-ink"/>
+  </g>
+  <text x="910" y="602" class="number" font-size="17">03 / FunASR + SenseVoiceSmall</text>
+  <text x="910" y="646" class="label">生成带时间的字幕</text>
+  <text x="910" y="684" class="copy">音频 → 文字 + 每个词的时间</text>
+
+  <g transform="translate(1370 445)">
+    <circle r="94" fill="#d9e3ef"/>
+    <rect x="-64" y="-49" width="128" height="96" rx="15" fill="#fffaf3" stroke="#24383b" stroke-width="5"/>
+    <path d="M-64 -22 h128" class="ink"/>
+    <circle cx="-42" cy="-36" r="5" fill="#e87554"/>
+    <circle cx="-23" cy="-36" r="5" fill="#f3c66b"/>
+    <circle cx="-4" cy="-36" r="5" fill="#83a9b6"/>
+    <path d="M-37 4 h48 M-37 25 h68" class="soft-ink"/>
+    <circle cx="44" cy="28" r="17" fill="#e87554" stroke="#24383b" stroke-width="4"/>
+    <path d="M44 19 v10 l7 5" class="ink" stroke="#fffaf3" stroke-width="3"/>
+  </g>
+  <text x="1290" y="602" class="number">04 / Python + Web</text>
+  <text x="1290" y="646" class="label">把跟练做出来</text>
+  <text x="1290" y="684" class="copy">后端串联，前端呈现</text>
+</svg>

@@ -1,0 +1,6 @@
+packages:
+  - "apps/*"
+  - "apps/*/webui"
+
+onlyBuiltDependencies:
+  - esbuild

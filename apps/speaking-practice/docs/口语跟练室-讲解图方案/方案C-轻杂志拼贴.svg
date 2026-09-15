@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">口语跟练室实现链路，轻杂志拼贴方案</title>
+  <desc id="desc">用四个带插画的彩色圆形节点和一条弧线，展示从视频、音频、字幕到网页跟练的流程。</desc>
+  <style>
+    .eyebrow { fill:#71817f; font:500 19px "Microsoft YaHei","Noto Sans SC",sans-serif; letter-spacing:4px; }
+    .heading { fill:#173c3a; font:600 57px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .subtitle { fill:#71817f; font:400 23px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .number { fill:#173c3a; font:600 19px "DM Mono",Consolas,monospace; letter-spacing:2px; }
+    .tool { fill:#e36d4f; font:600 20px "DM Mono",Consolas,monospace; }
+    .label { fill:#173c3a; font:600 30px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .copy { fill:#71817f; font:400 20px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .path { fill:none; stroke:#8ca09b; stroke-width:4; stroke-dasharray:3 15; stroke-linecap:round; }
+    .ink { fill:none; stroke:#173c3a; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; }
+    .light-ink { fill:none; stroke:#f8f6ed; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; }
+  </style>
+  <rect width="1600" height="900" fill="#f2f6f4"/>
+
+  <text x="86" y="88" class="eyebrow">口语跟练室 / FROM VIDEO TO PRACTICE</text>
+  <text x="86" y="160" class="heading">视频、音频、字幕，最后变成跟练</text>
+  <text x="90" y="207" class="subtitle">四个小节点，把一段内容变成可以反复练习的句子。</text>
+
+  <path d="M170 466 C330 560 390 260 575 356 S815 650 973 524 S1195 235 1410 360" class="path"/>
+  <path d="M1408 360 l-18 -10 M1408 360 l-10 18" class="path" stroke-dasharray="0"/>
+
+  <g transform="translate(210 455)">
+    <path d="M-103 -24 C-101 -85 -34 -114 29 -105 C89 -97 119 -44 108 15 C98 74 48 104 -20 99 C-81 95 -114 42 -103 -24Z" fill="#f4c7b7"/>
+    <circle cx="-62" cy="-72" r="18" fill="#e36d4f"/>
+    <text x="-69" y="-65" fill="#fff" font-family="DM Mono,Consolas,monospace" font-size="17">01</text>
+    <rect x="-62" y="-27" width="72" height="58" rx="10" fill="#f8f6ed" stroke="#173c3a" stroke-width="5"/>
+    <path d="M10 -12 l34 -18 v72 l-34 -18z" fill="#f2ad5e" stroke="#173c3a" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M-39 -14 l27 16 -27 16z" fill="#e36d4f"/>
+  </g>
+  <text x="112" y="632" class="number">01 / yt-dlp</text>
+  <text x="112" y="675" class="label">获取视频</text>
+  <text x="112" y="713" class="copy">网址或本地文件</text>
+
+  <g transform="translate(590 346)">
+    <path d="M-100 12 C-115 -48 -73 -101 -12 -107 C55 -114 107 -70 112 -11 C117 51 74 103 9 106 C-57 109 -98 73 -100 12Z" fill="#f3df9f"/>
+    <circle cx="-57" cy="-74" r="18" fill="#f2ad5e"/>
+    <text x="-64" y="-67" fill="#173c3a" font-family="DM Mono,Consolas,monospace" font-size="17">02</text>
+    <path d="M-55 -7 h24 l29 -25 v83 l-29 -25 h-24z" fill="#f8f6ed" stroke="#173c3a" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M10 -15 C38 -3 38 30 10 42 M32 -36 C75 -14 75 45 32 67" class="ink"/>
+  </g>
+  <text x="492" y="528" class="number">02 / FFmpeg</text>
+  <text x="492" y="571" class="label">提取音频</text>
+  <text x="492" y="609" class="copy">统一格式，拿到声音</text>
+
+  <g transform="translate(970 535)">
+    <path d="M-106 -6 C-99 -70 -48 -112 17 -102 C81 -93 112 -42 104 20 C96 82 41 108 -23 101 C-83 95 -113 56 -106 -6Z" fill="#bddbe0"/>
+    <circle cx="-63" cy="-72" r="18" fill="#86bcca"/>
+    <text x="-70" y="-65" fill="#173c3a" font-family="DM Mono,Consolas,monospace" font-size="17">03</text>
+    <rect x="-60" y="-25" width="79" height="57" rx="10" fill="#f8f6ed" stroke="#173c3a" stroke-width="5"/>
+    <path d="M-44 -5 h48 M-44 14 h60" class="ink" stroke-width="4"/>
+    <circle cx="48" cy="37" r="27" fill="#e36d4f" stroke="#173c3a" stroke-width="5"/>
+    <path d="M48 22 v16 l10 6" class="light-ink" stroke-width="4"/>
+  </g>
+  <text x="872" y="710" class="number">03 / FunASR + SenseVoiceSmall</text>
+  <text x="872" y="753" class="label">生成带时间的字幕</text>
+  <text x="872" y="791" class="copy">音频 → 文字 + 词语时间</text>
+
+  <g transform="translate(1370 375)">
+    <path d="M-101 4 C-111 -58 -70 -103 -7 -108 C56 -112 108 -72 108 -9 C108 52 67 101 5 105 C-57 109 -95 69 -101 4Z" fill="#173c3a"/>
+    <circle cx="-59" cy="-74" r="18" fill="#e36d4f"/>
+    <text x="-66" y="-67" fill="#f8f6ed" font-family="DM Mono,Consolas,monospace" font-size="17">04</text>
+    <rect x="-60" y="-27" width="117" height="86" rx="13" fill="#f8f6ed" stroke="#f8f6ed" stroke-width="5"/>
+    <path d="M-60 -3 h117" class="ink"/>
+    <circle cx="-42" cy="-16" r="4" fill="#e36d4f"/>
+    <circle cx="-27" cy="-16" r="4" fill="#f2ad5e"/>
+    <path d="M-35 19 h48 M-35 39 h68" class="ink" stroke-width="4"/>
+    <circle cx="35" cy="39" r="13" fill="#86bcca"/>
+  </g>
+  <text x="1270" y="560" class="number">04 / Python + Web</text>
+  <text x="1270" y="603" class="label">串联并呈现</text>
+  <text x="1270" y="641" class="copy">视频 · 字幕 · 录音 · 对比</text>
+</svg>

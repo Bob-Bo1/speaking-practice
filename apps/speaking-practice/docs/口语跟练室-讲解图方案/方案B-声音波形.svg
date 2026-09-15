@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">口语跟练室实现链路，声音波形方案</title>
+  <desc id="desc">以连续的声音波形为主线，展示视频获取、音频提取、字幕识别和前后端呈现四个步骤。</desc>
+  <style>
+    .eyebrow { fill:#8d989e; font:500 19px "DM Mono",Consolas,monospace; letter-spacing:4px; }
+    .heading { fill:#f4f1e9; font:600 58px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .subtitle { fill:#9aa4a8; font:400 24px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .number { fill:#f4b15b; font:600 20px "DM Mono",Consolas,monospace; letter-spacing:2px; }
+    .tool { fill:#f4b15b; font:600 22px "DM Mono",Consolas,monospace; }
+    .label { fill:#f4f1e9; font:600 30px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .copy { fill:#aeb6b7; font:400 20px "Microsoft YaHei","Noto Sans SC",sans-serif; }
+    .grid { stroke:#283136; stroke-width:1; }
+    .wave { fill:none; stroke:#8fd3e6; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; }
+    .icon { fill:none; stroke:#f4f1e9; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; }
+    .soft { fill:none; stroke:#8d989e; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+  </style>
+  <rect width="1600" height="900" fill="#121416"/>
+
+  <text x="88" y="88" class="eyebrow">SPEAKING ROOM / SIGNAL FLOW</text>
+  <text x="88" y="162" class="heading">把声音，变成可以跟练的句子</text>
+  <text x="92" y="208" class="subtitle">每一步都在处理同一件事：让视频里的表达更容易被听见、被模仿。</text>
+
+  <line x1="90" y1="430" x2="1510" y2="430" class="grid"/>
+  <line x1="90" y1="360" x2="1510" y2="360" class="grid"/>
+  <line x1="90" y1="500" x2="1510" y2="500" class="grid"/>
+  <path d="M90 430 C112 430 115 410 130 410 S148 430 165 430 S185 388 200 388 S218 475 236 475 S254 430 272 430 S290 420 308 420 S326 430 344 430 S362 398 380 398 S398 430 418 430 S438 468 455 468 S474 430 492 430 S510 386 528 386 S546 430 565 430 S584 452 603 452 S622 430 642 430 S661 405 680 405 S699 430 718 430 S738 475 755 475 S774 430 794 430 S812 392 830 392 S850 430 868 430 S887 460 906 460 S925 430 944 430 S964 376 981 376 S1000 430 1018 430 S1038 447 1056 447 S1074 430 1092 430 S1110 400 1128 400 S1146 430 1165 430 S1184 470 1202 470 S1220 430 1238 430 S1256 388 1274 388 S1292 430 1310 430 S1328 455 1346 455 S1364 430 1382 430 S1400 408 1418 408 S1436 430 1454 430 S1470 420 1510 430" class="wave"/>
+
+  <g transform="translate(200 430)">
+    <circle r="78" fill="#1d2b31" stroke="#8fd3e6" stroke-width="2"/>
+    <rect x="-42" y="-29" width="62" height="52" rx="8" class="icon"/>
+    <path d="M20 -16 l29 -17 v63 l-29 -17z" fill="#f4b15b" stroke="#f4f1e9" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-19 -17 l25 14 -25 14z" fill="#8fd3e6"/>
+  </g>
+  <text x="122" y="600" class="number">01</text>
+  <text x="122" y="643" class="tool">yt-dlp</text>
+  <text x="122" y="686" class="label">获取视频</text>
+  <text x="122" y="724" class="copy">网址或本地文件</text>
+
+  <g transform="translate(580 430)">
+    <circle r="78" fill="#2b241b" stroke="#f4b15b" stroke-width="2"/>
+    <path d="M-45 -14 h20 l22 -20 v68 l-22 -20 h-20z" class="icon"/>
+    <path d="M13 -22 C37 -10 37 22 13 34 M32 -39 C72 -17 72 38 32 58" class="icon"/>
+  </g>
+  <text x="502" y="600" class="number">02</text>
+  <text x="502" y="643" class="tool">FFmpeg</text>
+  <text x="502" y="686" class="label">提取音频</text>
+  <text x="502" y="724" class="copy">统一格式，拿到声音</text>
+
+  <g transform="translate(960 430)">
+    <circle r="78" fill="#222734" stroke="#8fd3e6" stroke-width="2"/>
+    <rect x="-50" y="-37" width="75" height="55" rx="9" class="icon"/>
+    <path d="M-36 -17 h42 M-36 2 h54" class="soft"/>
+    <circle cx="39" cy="30" r="25" fill="#f4b15b" stroke="#f4f1e9" stroke-width="4"/>
+    <path d="M39 16 v15 l10 6" class="icon" stroke="#121416" stroke-width="4"/>
+  </g>
+  <text x="862" y="600" class="number">03</text>
+  <text x="862" y="643" class="tool">FunASR + SenseVoiceSmall</text>
+  <text x="862" y="686" class="label">生成带时间的字幕</text>
+  <text x="862" y="724" class="copy">音频 → 文字 + 词语时间</text>
+
+  <g transform="translate(1340 430)">
+    <circle r="78" fill="#252a25" stroke="#f4b15b" stroke-width="2"/>
+    <rect x="-52" y="-40" width="104" height="80" rx="12" class="icon"/>
+    <path d="M-52 -16 h104" class="icon"/>
+    <circle cx="-34" cy="-28" r="4" fill="#f4b15b"/>
+    <circle cx="-19" cy="-28" r="4" fill="#8fd3e6"/>
+    <path d="M-30 4 h50 M-30 22 h66" class="soft"/>
+    <circle cx="35" cy="25" r="13" fill="#8fd3e6"/>
+  </g>
+  <text x="1262" y="600" class="number">04</text>
+  <text x="1262" y="643" class="tool">Python + Web</text>
+  <text x="1262" y="686" class="label">串起来，呈现出来</text>
+  <text x="1262" y="724" class="copy">视频 · 字幕 · 录音 · 对比</text>
+</svg>

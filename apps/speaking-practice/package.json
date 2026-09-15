@@ -1,0 +1,34 @@
+{
+  "name": "speaking-practice",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "test": "vitest run",
+    "preview": "astro preview",
+    "astro": "astro",
+    "data:audit": "uv run --project ../sensevoice python scripts/build_dataset.py audit",
+    "data:extract": "uv run --project ../sensevoice python scripts/build_dataset.py extract",
+    "data:transcribe": "uv run --project ../sensevoice python scripts/build_dataset.py transcribe",
+    "data:plan": "uv run --project ../sensevoice python scripts/build_dataset.py plan",
+    "data:render": "uv run --project ../sensevoice python scripts/build_dataset.py render",
+    "data:validate": "uv run --project ../sensevoice python scripts/build_dataset.py validate --deep"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.4",
+    "@phosphor-icons/react": "^2.1.10",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "astro": "^7.2.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
