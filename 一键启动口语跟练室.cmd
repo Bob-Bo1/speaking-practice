@@ -3,15 +3,26 @@ setlocal
 set "LAUNCHER=%~dp0apps\speaking-practice\scripts\start-practice.ps1"
 if not exist "%LAUNCHER%" set "LAUNCHER=%~dp0app\scripts\start-practice.ps1"
 
-where powershell.exe >nul 2>&1
-if errorlevel 1 (
+set "POWERSHELL=%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe"
+if not exist "%POWERSHELL%" (
+  where powershell.exe >nul 2>&1
+  if errorlevel 1 (
+    echo Windows PowerShell ^(powershell.exe^) was not found.
+    echo Please open Codex and ask it to repair the launcher.
+    pause
+    exit /b 1
+  )
+  set "POWERSHELL=powershell.exe"
+)
+
+if not defined POWERSHELL (
   echo Windows PowerShell ^(powershell.exe^) was not found.
   echo Please open Codex and ask it to repair the launcher.
   pause
   exit /b 1
 )
 
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%LAUNCHER%"
+"%POWERSHELL%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%LAUNCHER%"
 if errorlevel 1 (
   echo.
   echo 口语跟练室页面启动失败。

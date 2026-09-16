@@ -46,9 +46,12 @@ pnpm --dir apps/speaking-practice data:validate
 
 把 Python 环境、SenseVoice 模型、yt-dlp、FFmpeg、FFprobe 和 Deno 准备好后，可以执行：
 
+`-PythonRuntimeDirectory` 必须指向完整的独立 CPython 目录，里面要有 `python.exe`、Python DLL、标准库和 `DLLs`；不能填写 `apps/sensevoice/.venv`。如果第三方库安装在虚拟环境中，可以通过 `-PythonSitePackagesDirectory` 单独传入其 `Lib/site-packages` 目录。
+
 ```powershell
 ./scripts/prepare-release.ps1 `
   -PythonRuntimeDirectory 'D:\path\to\python-runtime' `
+  -PythonSitePackagesDirectory 'D:\path\to\site-packages' `
   -ModelDirectory 'D:\path\to\sensevoice-model' `
   -ModelPackageOutputDirectory 'D:\path\to\model-package' `
   -JavaScriptRuntimePath 'D:\path\to\deno.exe'

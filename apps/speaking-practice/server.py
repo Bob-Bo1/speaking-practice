@@ -12,6 +12,7 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import json
+import logging
 import os
 import re
 import shutil
@@ -29,6 +30,9 @@ from urllib.parse import urlsplit, urlunsplit
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+
+
+logger = logging.getLogger(__name__)
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -116,18 +120,42 @@ def read_json(path: Path, fallback: Any) -> Any:
         return fallback
 
 
+_JSON_WRITE_LOCK = threading.RLock()
+
+
 def write_json_atomic(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    for attempt in range(8):
+    temporary = path.with_name(f".{path.name}.{uuid.uuid4().hex}.tmp")
+    payload = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+    with _JSON_WRITE_LOCK:
         try:
-            os.replace(temporary, path)
-            return
-        except PermissionError:
-            if attempt == 7:
+            temporary.write_text(payload, encoding="utf-8")
+            last_error: PermissionError | None = None
+            for attempt in range(8):
+                try:
+                    os.replace(temporary, path)
+                    return
+                except PermissionError as error:
+                    last_error = error
+                    if attempt == 7:
+                        break
+                    time.sleep(0.25 * (attempt + 1))
+
+            # Windows security scanners and removable drives can briefly keep
+            # the destination open. Keep the queue alive with a direct-write
+            # fallback after the atomic replacement retries are exhausted.
+            try:
+                path.write_text(payload, encoding="utf-8")
+                return
+            except OSError as fallback_error:
+                if last_error is not None:
+                    raise last_error from fallback_error
                 raise
-            time.sleep(0.25 * (attempt + 1))
+        finally:
+            try:
+                temporary.unlink()
+            except OSError:
+                pass
 
 
 def read_user_library() -> dict[str, Any]:
@@ -238,7 +266,13 @@ def public_job(job: dict[str, Any]) -> dict[str, Any]:
 
 
 def save_job(job: dict[str, Any]) -> None:
-    write_json_atomic(JOBS_DIR / f"{job['id']}.json", public_job(job))
+    path = JOBS_DIR / f"{job['id']}.json"
+    try:
+        write_json_atomic(path, public_job(job))
+    except OSError as error:
+        # The in-memory state is still authoritative for the running app. A
+        # later progress update will retry persistence without killing worker.
+        logger.warning("保存任务状态失败，将在下一次更新时重试 (%s): %s", path, error)
 
 
 def new_job(kind: str, **values: Any) -> dict[str, Any]:
@@ -265,6 +299,13 @@ def update_job(job: dict[str, Any], **values: Any) -> None:
     job.update(values)
     job["updatedAt"] = now_iso()
     save_job(job)
+
+
+def update_job_safely(job: dict[str, Any], **values: Any) -> None:
+    try:
+        update_job(job, **values)
+    except Exception:
+        logger.exception("记录导入任务 %s 的状态时出错", job.get("id", "unknown"))
 
 
 def redact_sensitive_process_text(value: str) -> str:
@@ -993,11 +1034,11 @@ def process_import(job: dict[str, Any]) -> None:
     except ImportCancelled:
         if created_material_dir and created_material_dir.is_dir():
             shutil.rmtree(created_material_dir, ignore_errors=True)
-        update_job(job, status="cancelled", progress=0, step="已取消", errorCode="cancelled", error="任务已取消。")
+        update_job_safely(job, status="cancelled", progress=0, step="已取消", errorCode="cancelled", error="任务已取消。")
     except ImportFailure as error:
         if created_material_dir and created_material_dir.is_dir():
             shutil.rmtree(created_material_dir, ignore_errors=True)
-        update_job(
+        update_job_safely(
             job,
             status="failed",
             progress=0,
@@ -1010,7 +1051,7 @@ def process_import(job: dict[str, Any]) -> None:
     except Exception as error:  # Keep the user-facing job alive even on unexpected tools/runtime errors.
         if created_material_dir and created_material_dir.is_dir():
             shutil.rmtree(created_material_dir, ignore_errors=True)
-        update_job(job, status="failed", progress=0, step="导入失败", errorCode="unexpected", error=str(error)[-600:], canContinueWithFile=job["kind"] == "url")
+        update_job_safely(job, status="failed", progress=0, step="导入失败", errorCode="unexpected", error=str(error)[-600:], canContinueWithFile=job["kind"] == "url")
     finally:
         cancel_events.pop(job_id, None)
 
@@ -1033,10 +1074,29 @@ def load_jobs() -> None:
 async def worker_loop() -> None:
     while True:
         job_id = await job_queue.get()
+        job = jobs.get(job_id)
         try:
-            job = jobs.get(job_id)
             if job and job.get("status") == "queued":
                 await asyncio.to_thread(process_import, job)
+        except asyncio.CancelledError:
+            raise
+        except Exception as error:
+            # process_import handles expected failures itself. This boundary
+            # protects the queue when a persistence or runtime error escapes.
+            logger.exception("导入任务 %s 出现未处理异常", job_id)
+            if job:
+                try:
+                    update_job(
+                        job,
+                        status="failed",
+                        progress=0,
+                        step="导入失败",
+                        errorCode="worker_unexpected",
+                        error=(str(error).strip() or "任务处理过程中发生未预期错误。")[-600:],
+                        canContinueWithFile=job.get("kind") == "url",
+                    )
+                except Exception:
+                    logger.exception("记录导入任务 %s 的失败状态时再次出错", job_id)
         finally:
             job_queue.task_done()
 

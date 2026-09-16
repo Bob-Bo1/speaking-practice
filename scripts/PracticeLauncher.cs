@@ -44,6 +44,18 @@ internal static class PracticeLauncher
         return value.Length <= maxLength ? value : value.Substring(value.Length - maxLength);
     }
 
+    private static string FindPowerShell()
+    {
+        string systemRoot = Environment.GetEnvironmentVariable("SystemRoot");
+        if (String.IsNullOrWhiteSpace(systemRoot)) systemRoot = Environment.GetEnvironmentVariable("WINDIR");
+        if (!String.IsNullOrWhiteSpace(systemRoot))
+        {
+            string bundledPath = Path.Combine(systemRoot, "System32", "WindowsPowerShell", "v1.0", "powershell.exe");
+            if (File.Exists(bundledPath)) return bundledPath;
+        }
+        return "powershell.exe";
+    }
+
     private static void ShowFailure(string message)
     {
         MessageBox.Show(message, "\u53e3\u8bed\u8ddf\u7ec3\u5ba4\u542f\u52a8\u5931\u8d25", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -103,7 +115,7 @@ internal static class PracticeLauncher
 
             ProcessStartInfo startInfo = new ProcessStartInfo
             {
-                FileName = "powershell.exe",
+                FileName = FindPowerShell(),
                 Arguments = arguments,
                 WorkingDirectory = appDirectory,
                 UseShellExecute = false,

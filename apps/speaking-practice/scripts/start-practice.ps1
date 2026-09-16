@@ -12,15 +12,37 @@ $ErrorLog = Join-Path $LogDirectory 'speaking-practice.stderr.log'
 $ServiceStandardLog = Join-Path $LogDirectory 'speaking-practice-service.stdout.log'
 $ServiceErrorLog = Join-Path $LogDirectory 'speaking-practice-service.stderr.log'
 $LastLaunchFile = Join-Path $LogDirectory 'last-launch.txt'
-$ServerPythonCandidates = @(
+
+function Test-StandalonePythonRuntime {
+    param([string]$PythonPath)
+
+    if (-not (Test-Path -LiteralPath $PythonPath -PathType Leaf)) { return $false }
+    $runtimeDirectory = Split-Path -Parent $PythonPath
+    $pythonDll = Get-ChildItem -LiteralPath $runtimeDirectory -File -Filter 'python*.dll' -ErrorAction SilentlyContinue | Select-Object -First 1
+    $stdlibMarker = Join-Path $runtimeDirectory 'Lib\encodings\__init__.py'
+    $dllDirectory = Join-Path $runtimeDirectory 'DLLs'
+    $virtualEnvironmentConfig = Join-Path $runtimeDirectory 'pyvenv.cfg'
+    return [bool]$pythonDll -and
+        (Test-Path -LiteralPath $stdlibMarker -PathType Leaf) -and
+        (Test-Path -LiteralPath $dllDirectory -PathType Container) -and
+        -not (Test-Path -LiteralPath $virtualEnvironmentConfig -PathType Leaf)
+}
+
+$PortablePythonCandidates = @(
     (Join-Path $AppDirectory 'runtime\python\python.exe'),
-    (Join-Path $PackageDirectory 'runtime\python\python.exe'),
-    (Join-Path $AppDirectory 'runtime\python\Scripts\python.exe'),
-    (Join-Path $PackageDirectory 'runtime\python\Scripts\python.exe'),
-    (Join-Path (Split-Path -Parent $AppDirectory) 'sensevoice\.venv\Scripts\python.exe'),
-    (Join-Path $PackageDirectory 'sensevoice\.venv\Scripts\python.exe')
+    (Join-Path $PackageDirectory 'runtime\python\python.exe')
 )
-$ServerPythonPath = $ServerPythonCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+$ServerPythonPath = $PortablePythonCandidates | Where-Object { Test-StandalonePythonRuntime $_ } | Select-Object -First 1
+
+# The development tree may still use its uv virtual environment. A package
+# that contains runtime\python must never fall back to that external runtime.
+$PackageRuntimeDirectory = Join-Path $PackageDirectory 'runtime\python'
+if (-not $ServerPythonPath -and -not (Test-Path -LiteralPath $PackageRuntimeDirectory -PathType Container)) {
+    $ServerPythonPath = @(
+        (Join-Path (Split-Path -Parent $AppDirectory) 'sensevoice\.venv\Scripts\python.exe'),
+        (Join-Path $PackageDirectory 'sensevoice\.venv\Scripts\python.exe')
+    ) | Where-Object { Test-Path -LiteralPath $_ -PathType Leaf } | Select-Object -First 1
+}
 $UseStaticServer = [bool]$ServerPythonPath -and (Test-Path -LiteralPath (Join-Path $AppDirectory 'dist\index.html'))
 $ServicePort = if ($UseStaticServer) { $PreferredPort } else { 50000 }
 
@@ -56,7 +78,7 @@ function Start-LocalService {
     if (Test-LocalService) { return }
 
     if (-not $ServerPythonPath) {
-        throw '本地服务运行环境缺失。请确认运行包包含 runtime\python\python.exe，或项目包含 apps\sensevoice\.venv。'
+        throw '包内 Python 运行环境不完整。请确认 runtime\python 包含完整的 python.exe、python*.dll、Lib\encodings 和 DLLs；发布包不能使用 Scripts\python.exe 或外部 .venv。'
     }
 
     Remove-Item -LiteralPath $ServiceStandardLog, $ServiceErrorLog -Force -ErrorAction SilentlyContinue

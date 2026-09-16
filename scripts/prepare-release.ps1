@@ -1,6 +1,7 @@
 ﻿param(
     [string]$OutputDirectory = (Join-Path (Split-Path -Parent $PSScriptRoot) 'release\口语跟练室'),
     [string]$PythonRuntimeDirectory = '',
+    [string]$PythonSitePackagesDirectory = '',
     [string]$ModelDirectory = '',
     [string]$ModelPackageOutputDirectory = '',
     [string]$JavaScriptRuntimePath = '',
@@ -18,6 +19,25 @@ $OutputDirectory = [IO.Path]::GetFullPath($OutputDirectory)
 function Assert-Directory([string]$PathValue, [string]$Label) {
     if (-not (Test-Path -LiteralPath $PathValue -PathType Container)) {
         throw "$Label 不存在：$PathValue"
+    }
+}
+
+function Assert-StandalonePythonRuntime([string]$PathValue) {
+    $pythonExecutable = Join-Path $PathValue 'python.exe'
+    $pythonDll = Get-ChildItem -LiteralPath $PathValue -File -Filter 'python*.dll' -ErrorAction SilentlyContinue | Select-Object -First 1
+    $stdlibMarker = Join-Path $PathValue 'Lib\encodings\__init__.py'
+    $dllDirectory = Join-Path $PathValue 'DLLs'
+    $virtualEnvironmentConfig = Join-Path $PathValue 'pyvenv.cfg'
+
+    if (-not (Test-Path -LiteralPath $pythonExecutable -PathType Leaf) -or
+        -not $pythonDll -or
+        -not (Test-Path -LiteralPath $stdlibMarker -PathType Leaf) -or
+        -not (Test-Path -LiteralPath $dllDirectory -PathType Container)) {
+        throw "Python 运行环境不完整：$PathValue。发布包必须使用完整的独立 CPython 目录，至少包含 python.exe、python*.dll、Lib\encodings 和 DLLs；不能直接使用 .venv。"
+    }
+
+    if (Test-Path -LiteralPath $virtualEnvironmentConfig -PathType Leaf) {
+        throw "Python 运行环境仍是虚拟环境：$virtualEnvironmentConfig。请提供完整的独立 CPython 目录，避免依赖其他电脑上的 Python。"
     }
 }
 
@@ -62,7 +82,14 @@ $runtimeSource = $PythonRuntimeDirectory
 if (-not $runtimeSource) {
     $runtimeSource = Join-Path $RepoDirectory 'apps\sensevoice\.venv'
 }
+$runtimeSource = [IO.Path]::GetFullPath($runtimeSource)
 Assert-Directory $runtimeSource 'Python 运行环境'
+Assert-StandalonePythonRuntime $runtimeSource
+$sitePackagesSource = $PythonSitePackagesDirectory
+if ($sitePackagesSource) {
+    $sitePackagesSource = [IO.Path]::GetFullPath($sitePackagesSource)
+    Assert-Directory $sitePackagesSource 'Python 第三方库目录'
+}
 
 if (-not $JavaScriptRuntimePath) {
     $bundledJavaScriptRuntime = Join-Path $AppDirectory 'runtime\js\deno.exe'
@@ -105,6 +132,9 @@ Copy-Item -LiteralPath (Join-Path $AppDirectory 'scripts\start-practice.ps1') -D
 
 Copy-DirectoryContents $runtimeSource $runtimeTarget
 $runtimeSitePackages = Join-Path $runtimeTarget 'Lib\site-packages'
+if ($sitePackagesSource) {
+    Copy-DirectoryContents $sitePackagesSource $runtimeSitePackages
+}
 $funasrSitePackage = Join-Path $runtimeSitePackages 'funasr'
 $funTextProcessingSitePackage = Join-Path $runtimeSitePackages 'fun_text_processing'
 New-Item -ItemType Directory -Path $runtimeSitePackages -Force | Out-Null
